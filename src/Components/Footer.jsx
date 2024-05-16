@@ -3,7 +3,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaSquareTwitter } from "react-icons/fa6";
-import LL from '../Images/Favicon1.png'
+import LL from '../Images/Logo.png'
 import { Link } from 'react-router-dom';
 
 function Footer() {
