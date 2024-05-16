@@ -1,0 +1,46 @@
+export const Img_info = [
+    {
+        img:'../Sponsors_Img/1.jpg',
+    },
+    {
+        img:'https://www.solarranchi.in/img/main_logo.png'
+    },
+    {
+        img:'../Sponsors_Img/2.png'
+    },
+    {
+        img:'../Sponsors_Img/3.png'
+    },
+    {
+        img:'../Sponsors_Img/10.jpg'
+    },
+    {
+        img:'../Sponsors_Img/11.jpg'
+    },
+    {
+        img:'../Sponsors_Img/12.jpeg'
+    },
+    {
+        img:'../Sponsors_Img/5.png'
+    },
+    {
+        img:'../Sponsors_Img/6.png'
+    },
+    {
+        img:'../Sponsors_Img/7.png'
+    },
+    {
+        img:'../Sponsors_Img/8.jpg'
+    },
+    {
+        img:'../Sponsors_Img/9.jpg'
+    },
+    {
+        img:'https://www.alcastindia.com/images/alcast-logo.png'
+    },
+    {
+        img:'https://ushamartin.com/images/logo.png'
+    },
+    
+    
+]
