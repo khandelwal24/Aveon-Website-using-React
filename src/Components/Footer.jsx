@@ -4,8 +4,14 @@ import { FaSquareInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaSquareTwitter } from "react-icons/fa6";
 import LL from '../Images/Favicon1.png'
+import { Link } from 'react-router-dom';
 
 function Footer() {
+
+    let click = ()=>{
+        alert('Comming Soon');
+    }
+
   return (
     <div>
        <footer className="bg-[#080f29] w-[100%] body-font border-t-[2px] border-gray-200 py-16">
@@ -17,7 +23,7 @@ function Footer() {
             <div className="md:text-left text-center">
               <p className="mt-2 text-md text-white ">An e-ATV Racing Team of Birla Institute of Technology - Mesra, Ranchi</p>
               <div data-aos="flip-up" data-aos-duration="5000" className="space-x-4 text-white py-3 text-3xl flex justify-center md:justify-start">
-              <a href="https://www.instagram.com/teamaveon/?hl=en"><FaSquareInstagram className="hover:scale-110 duration-300 hover:text-purple-600 active:scale-150"/> </a>
+              <a href="https://www.instagram.com/teamaveon/?hl=en"><FaSquareInstagram className="hover:scale-110 duration-300 hover:text-pink-700 active:scale-150"/> </a>
               <a href="https://www.facebook.com/TeamAveonRacing/"><FaFacebookSquare className="hover:scale-110 duration-300 hover:text-blue-700 active:scale-150" /></a>
               <a href="https://in.linkedin.com/company/team-aveon"><FaLinkedin className="hover:scale-110 duration-300 hover:text-blue-500 active:scale-150"/></a>
               <a href="https://twitter.com/TeamAveon"><FaSquareTwitter className="hover:scale-110 duration-300 hover:text-blue-500 active:scale-150"/></a>
@@ -31,33 +37,33 @@ function Footer() {
             <div className="list1">
               <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Quick Links</h2>
               <div className="list-none mb-10">
-                <li><a href="#Home" className="text-white hover:font-semibold">Home</a></li>
-                <li><a href="#About" className="text-white hover:font-semibold">About</a></li>
-                <li><a href="#" className="text-white hover:font-semibold">Teams</a></li>
-                <li><a href="#" className="text-white hover:font-semibold">Gallery</a></li>
+                <li><Link to={'/'} className="text-white hover:font-semibold">Home</Link></li>
+                <li><Link to={'/'} className="text-white hover:font-semibold">About</Link></li>
+                <li><Link to={'/Team'}  className="text-white hover:font-semibold">Teams</Link></li>
+                <li><Link to={'/Gallery'}  className="text-white hover:font-semibold">Gallery</Link></li>
               </div>
             </div>
             <div className="list2">
               <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
                 <div className="list-none mb-10">
-                  <li><a className="text-white hover:font-semibold">First Link</a></li>
-                  <li><a className="text-white hover:font-semibold">Second Link</a></li>
-                  <li><a className="text-white hover:font-semibold">Third Link</a></li>
-                  <li><a className="text-white hover:font-semibold">Fourth Link</a></li>
+                  <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">First Link</a></li>
+                  <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Second Link</a></li>
+                  <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Third Link</a></li>
+                  <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Fourth Link</a></li>
                 </div>
               </div>
               
               <div className="list3">
               <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
               <div className="list-none mb-10">
-                <li><a className="text-white hover:font-semibold">First Link</a></li>
-                <li><a className="text-white hover:font-semibold">Second Link</a></li>
-                  <li><a className="text-white hover:font-semibold">Third Link</a></li>
-                  <li><a className="text-white hover:font-semibold">Fourth Link</a></li>
+                <li> <a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">First Link</a></li>
+                <li> <a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Second Link</a></li>
+                  <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Third Link</a></li>
+                  <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Fourth Link</a></li>
                 </div>
               </div>
 
-              <div className="list4 lg:hidden block ">
+              {/* <div className="list4 lg:hidden block ">
               <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
               <div className="list-none mb-10">
                 <li><a className="text-white hover:font-semibold">First Link</a></li>
@@ -65,7 +71,7 @@ function Footer() {
                   <li><a className="text-white hover:font-semibold">Third Link</a></li>
                   <li><a className="text-white hover:font-semibold">Fourth Link</a></li>
                 </div>
-              </div>
+              </div> */}
               
               
             </div>

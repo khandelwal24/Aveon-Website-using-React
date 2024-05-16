@@ -11,11 +11,9 @@ body{
   background-image: url(./Images/Background.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: right;
+  background-position: center;
+  background-size: cover;
 }
 .lastline{
-  background-image: url(./Images/Background.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+ background-color: #030838;
 }

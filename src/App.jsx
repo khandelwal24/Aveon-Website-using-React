@@ -14,22 +14,29 @@ import Contact from './Components/Contact'
 import Footer from './Components/Footer'
 import LastLine from './Components/LastLine'
 
+import Team from './Components/Team'
+import Gallery from './Components/Gallery'
+import Error from './Components/Error'
+
+import Home from './Components/Home'
+
+import { BrowserRouter,Routes, Route } from 'react-router-dom'
+
 
 function App() {
 
   return (
     <>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Vehicle/>
-      <Mobility/>
-      <Stats/>
-      <Sponsors/>
-      <Achievements/>
-      <Contact/>
-      <Footer/>
-      <LastLine/>
+      
+      <BrowserRouter>      
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/Team' element={<Team/>} />
+          <Route path='/Gallery' element={<Gallery/>} />
+          <Route path='*' element={<Error/>} />
+        </Routes>
+      </BrowserRouter>
+
     </>
   )
 }

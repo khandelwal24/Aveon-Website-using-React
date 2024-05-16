@@ -20,7 +20,7 @@ function Achievements() {
                         <img src={v.img} width={250} loading='lazy' className='rounded-full border-[3px] border-[#4150d8]' style={{boxShadow:'5px 3px 5px rgb(65, 80, 216) '}}/>
                         
                         <p className='text-lg'>
-                        <span className='text-2xl font-bold block text-[#4150d8]' style={{fontFamily:'Orbitron'}}>{v.year}</span>
+                        <span className='text-3xl font-bold block text-[#4150d8]' style={{fontFamily:'Orbitron'}}>{v.year}</span>
                         {v.des}
                         </p>
 

@@ -2,6 +2,9 @@ import React, { useState } from 'react'
 import logo from '../Images/Logo.png'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
+import { NavLink } from 'react-router-dom';
+import Team from './Team';
+import Gallery from './Gallery';
 
 
 function Navbar() {
@@ -16,11 +19,11 @@ function Navbar() {
                 <img src={logo} className="h-12"/>
             </div>
             <div className="text-2xl space-x-5 lg:block hidden" style={{fontFamily:'Orbitron'}}>
-                <a href="#Home" className="hover:text-gray-500 hover:border-b-[2px] border-white hover:transition-all ease-in-out duration-75">Home</a>
-                <a href="#About" className="hover:text-gray-500 hover:border-b-[2px] border-white hover:transition-all ease-in-out duration-75">About</a>
-                <a href="#" className="hover:text-gray-500 hover:border-b-[2px] border-white hover:transition-all ease-in-out duration-75">Team</a>
+                <a href="#Home" className="hover:text-gray-500 hover:border-b-[2px] border-white hover:transition-all ease-in-out duration-75 ">Home</a>
+                <a href="#About" className="hover:text-gray-500 hover:border-b-[2px] border-white hover:transition-all ease-in-out duration-75 ">About</a>
+                <NavLink to={"/Team"} className="hover:text-gray-500 hover:border-b-[2px] border-white hover:transition-all ease-in-out duration-75">Team</NavLink>
                 <a href="#Sponsors" className="hover:text-gray-500 hover:border-b-[2px] border-white hover:transition-all ease-in-out duration-75">Sponsors</a>
-                <a href="#" className="hover:text-gray-500 hover:border-b-[2px] border-white hover:transition-all ease-in-out duration-75">Gallery</a>
+                <NavLink to={"/Gallery"}  className="hover:text-gray-500 hover:border-b-[2px] border-white hover:transition-all ease-in-out duration-75">Gallery</NavLink>
             </div>
 
 <button onClick={()=>setNav(!Nav)} className='mmd:hidden'>
@@ -34,9 +37,9 @@ function Navbar() {
         <img src={logo} className= {`text-3xl font-bold text-white mb-6 px-4 py-[14px] ${ !Nav ? 'hidden' : 'block'} `}/>
           <a href="#Home" className=" border-b-[1px] rounded-xl border-white block py-3 px-2 mb-3 hover:bg-[#213068] hover:transition-all ease-in-out duration-75">Home</a>
           <a href="#About" className=" border-b-[1px] rounded-xl border-white block py-3 px-2 mb-3 hover:bg-[#213068] hover:transition-all ease-in-out duration-75">About</a>
-          <a href="#" className=" border-b-[1px] rounded-xl border-white block py-3 px-2 mb-3 hover:bg-[#213068] hover:transition-all ease-in-out duration-75">Team</a>
+          <NavLink to={'/Team'} className=" border-b-[1px] rounded-xl border-white block py-3 px-2 mb-3 hover:bg-[#213068] hover:transition-all ease-in-out duration-75">Team</NavLink>
           <a href="#Sponsors" className=" border-b-[1px] rounded-xl border-white block py-3 px-2 mb-3 hover:bg-[#213068] hover:transition-all ease-in-out duration-75">Sponsors</a>
-          <a href="#" className=" border-b-[1px] rounded-xl border-white block py-3 px-2 mb-3 hover:bg-[#213068] hover:transition-all ease-in-out duration-75">Gallery</a>
+          <NavLink to={'/Gallery'} className=" border-b-[1px] rounded-xl border-white block py-3 px-2 mb-3 hover:bg-[#213068] hover:transition-all ease-in-out duration-75">Gallery</NavLink>
       </div>
         
       
