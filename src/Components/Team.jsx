@@ -1,12 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Teams_info } from './Teams_Mem_Data'
 import Footer from './Footer'
 import LastLine from './LastLine'
 
 function Team() {
+  useEffect(()=>{console.log('Reload')},[Teams_info]);
   return (
     <div>
-
     <div class="max-w-[1920px] mx-auto text-white">
     <h2 class="text-center sm:text-5xl mt-5 mb-5 text-4xl " style={{fontFamily:'Orbitron'}}>Our Team Members</h2>
     <hr class="w-1/2 font-bold text-black h-1/2 mb-7 mx-auto"/>
