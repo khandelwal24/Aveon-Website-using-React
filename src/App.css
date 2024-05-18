@@ -17,3 +17,7 @@ body{
 .lastline{
  background-color: #030838;
 }
+
+body::-webkit-scrollbar{
+  display: none;
+}
