@@ -15,7 +15,7 @@ function Achievements() {
           <div className="space-y-10">               
                     {Achive.map((v,i)=>{
                        return(
-                        <div key={i} className="grid md:grid-cols-2 grid-cols-1 gap-3 max-w-[850px] bg-[#080f29] text-white mx-auto px-7 py-5 rounded-2xl items-center" style={{boxShadow:'5px 5px 5px rgb(65, 80, 216)'}} data-aos="zoom-in" data-aos-duration="1000">
+                        <div key={i} className="grid sm:grid-cols-2 grid-cols-1 gap-3 max-w-[850px] bg-[#080f29] text-white mx-auto px-7 py-5 rounded-2xl items-center justify-center text-center justify-items-center" style={{boxShadow:'5px 5px 5px rgb(65, 80, 216)'}} data-aos="zoom-in" data-aos-duration="1000">
                         
                         <img src={v.img} width={250} loading='lazy' className='rounded-full border-[3px] border-[#4150d8]' style={{boxShadow:'5px 3px 5px rgb(65, 80, 216) '}}/>
                         
