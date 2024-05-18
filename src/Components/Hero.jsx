@@ -13,7 +13,7 @@ function Hero() {
                     <img src={C} loading="lazy" className="hover:scale-110 transition-all ease-in-out duration-300"/>
                 </div>
             </div>
-          <button className='hidden md:block relative my-4 mmd:-right-[85%] p-2.5 bg-gray-600 text-white rounded-md border-2 border-black hover:bg-gray-500' >  <a href={pdf} download="Team Aveon Broucher.pdf" >Download Broucher <i class="fa-solid fa-download"></i></a> </button> 
+          <button className='hidden lg:block relative my-4 mmd:-right-[85%] p-2.5 bg-gray-600 text-white rounded-md border-2 border-black hover:bg-gray-500' >  <a href={pdf} download="Team Aveon Broucher.pdf" >Download Broucher <i class="fa-solid fa-download"></i></a> </button> 
     </section>
     </div>
   )
