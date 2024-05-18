@@ -4,7 +4,6 @@ import Footer from './Footer'
 import LastLine from './LastLine'
 
 function Team() {
-  useEffect(()=>{console.log('Reload')},[Teams_info]);
   return (
     <div>
     <div class="max-w-[1920px] mx-auto text-white">
