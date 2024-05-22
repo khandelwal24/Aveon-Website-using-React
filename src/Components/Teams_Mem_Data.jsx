@@ -65,3 +65,40 @@ export const Teams_info = [
      },
 
 ]
+
+
+export const Teams_infoK22 =[
+   
+   {
+         img:'../Team Member Images/me day 3.0.jpg',
+         Name:'Harsh Khandelwal',
+         Position:'Web Master',
+         Insta:'https://www.instagram.com/khandelwal0024/',
+         Linkedin:'https://www.linkedin.com/in/harshwardhan-khandelwal-86104625a/',
+         Mail:'mailto:khandelwalharsh333@gmail.com'
+   },
+   {
+         img:'../Team Member Images/me day 3.0.jpg',
+         Name:'Harsh Khandelwal',
+         Position:'Web Master',
+         Insta:'https://www.instagram.com/khandelwal0024/',
+         Linkedin:'https://www.linkedin.com/in/harshwardhan-khandelwal-86104625a/',
+         Mail:'mailto:khandelwalharsh333@gmail.com'
+   },
+   {
+         img:'../Team Member Images/me day 3.0.jpg',
+         Name:'Harsh Khandelwal',
+         Position:'Web Master',
+         Insta:'https://www.instagram.com/khandelwal0024/',
+         Linkedin:'https://www.linkedin.com/in/harshwardhan-khandelwal-86104625a/',
+         Mail:'mailto:khandelwalharsh333@gmail.com'
+   },
+   {
+         img:'../Team Member Images/me day 3.0.jpg',
+         Name:'Harsh Khandelwal',
+         Position:'Web Master',
+         Insta:'https://www.instagram.com/khandelwal0024/',
+         Linkedin:'https://www.linkedin.com/in/harshwardhan-khandelwal-86104625a/',
+         Mail:'mailto:khandelwalharsh333@gmail.com'
+   }
+]

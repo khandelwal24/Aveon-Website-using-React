@@ -32,6 +32,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/Team' element={<Team/>} />
+          <Route path='/Team/:year' element={<Team/>} />
           <Route path='/Gallery' element={<Gallery/>} />
           <Route path='*' element={<Error/>} />
         </Routes>
