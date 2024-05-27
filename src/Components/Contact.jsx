@@ -36,7 +36,7 @@ function Contact() {
                 Contact <span className="text-[#4150d8]">Us</span>
             </div>
             <hr className="w-1/4 mx-auto text-center mb-10"/>
-            <div data-aos="flip-left" data-aos-duration="1000"  className="text-white opacity-95 flex items-center justify-center max-w-[750px] space-x-3 bg-gray-900 py-7 mx-auto rounded-3xl overflow-hidden" style={{boxShadow:'2px 2px 2px rgb(119, 118, 118)'}}>
+            <div data-aos="flip-left" data-aos-duration="1000"  className="text-white opacity-95 flex items-center justify-center max-w-[750px] space-x-3 bg-gray-900 py-7 mx-auto rounded-3xl overflow-hidden border-[1px] border-b-orange-100" style={{boxShadow:'5px 5px 10px rgb(119, 118, 118), -3px -5px 10px rgb(119, 118, 118)'}}>
 
     <ToastContainer theme='black' />
               <form onSubmit={handleSubmit} className="space-y-8 flex-col flex mx-auto justify-center items-center w-full">
