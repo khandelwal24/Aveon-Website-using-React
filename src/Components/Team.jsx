@@ -16,7 +16,7 @@ function Team() {
 const K21 = Teams_info.map((v,i)=>{
     return(
     <div  data-aos="flip-left" data-aos-duration="5000" key={i} className="w-full flex flex-col px-4 py-3 border-[1px] border-gray-300 text-white gap-4 mx-auto items-center rounded-lg pb-5 bg-gray-900  justify-center">
-    <img src={v.img} className="rounded-full h-24 w-24 hover:scale-110 duration-300 active:scale-150 border-[2px] border-blue-500" />
+    <img loading='lazy' src={v.img} className="rounded-full h-24 w-24 hover:scale-110 duration-300 active:scale-150 border-[2px] border-blue-500" />
     <h1 className="text-xl font-semibold text-center">{v.Name}</h1>
     <p className="text-xl font-extrabold text-center text-purple-500" style={{fontFamily:"sans-serif"}}>{v.Position}</p>
     <div className="w-full flex gap-4 justify-center md:flex-row text-3xl">
@@ -31,7 +31,7 @@ const K21 = Teams_info.map((v,i)=>{
 const K22 = Teams_infoK22.map((v,i)=>{
   return(
     <div  data-aos="flip-left" data-aos-duration="5000" key={i} className="w-full flex flex-col px-4 py-3 border-[1px] border-gray-300 text-white gap-4 mx-auto items-center rounded-lg pb-5 bg-gray-900  justify-center">
-    <img src={v.img} className="rounded-full h-24 w-24 hover:scale-110 duration-300 active:scale-150 border-[2px] border-blue-500" />
+    <img loading='lazy' src={v.img} className="rounded-full h-24 w-24 hover:scale-110 duration-300 active:scale-150 border-[2px] border-blue-500" />
     <h1 className="text-xl font-semibold text-center">{v.Name}</h1>
     <p className="text-xl font-extrabold text-center text-purple-500" style={{fontFamily:"sans-serif"}}>{v.Position}</p>
     <div className="w-full flex gap-4 justify-center md:flex-row text-3xl">
