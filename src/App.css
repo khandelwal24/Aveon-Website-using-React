@@ -9,11 +9,10 @@
 
 body{
   background-image: url(./Images/Background.jpg);
-  /* background-color: darkblue; */
   background-repeat: no-repeat;
-  background-attachment:local;
-  background-position: left;
-  background-size: cover;
+  background-attachment:fixed;
+  background-position:right;
+  background-size:auto;
 }
 .lastline{
  background-color: #030838;
