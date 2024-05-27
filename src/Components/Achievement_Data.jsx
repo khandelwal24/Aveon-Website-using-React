@@ -60,10 +60,14 @@ export const Achive = [
     },
     {
         img:'../Achievement_Img/AA.jpg',
-        year:'2024',
+        year:'2023',
         des:<p>
+        OVERALL - 13TH <br/>
         3RD - INNOVATION <br/>
-        Reached to COST FINALS <br/>
+        8TH - COST REPORT <br/>
+        8TH - SALES REPORT <br/>
+        12TH - PRELIMINARY <br/>
+
         </p>
     },
 ]
