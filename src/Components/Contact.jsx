@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { toast, ToastContainer } from 'react-toastify'
-
 import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
@@ -20,13 +19,13 @@ function Contact() {
     }
 
     let handleSubmit = (e)=>{
-        toast.success('Submitted Successfully');
-        e.preventDefault();
-        setformData({
-            uname:'',
-            uemail:'',
-            umessage:'',
-        })
+      toast.success('Submitted Successfully');
+      e.preventDefault();
+      setformData({
+        uname:'',
+        uemail:'',
+        umessage:'',
+      })
     }
 
   return (
@@ -39,17 +38,17 @@ function Contact() {
             <hr className="w-1/4 mx-auto text-center mb-10"/>
             <div data-aos="flip-left" data-aos-duration="1000"  className="text-white opacity-95 flex items-center justify-center max-w-[750px] space-x-3 bg-gray-900 py-7 mx-auto rounded-3xl overflow-hidden" style={{boxShadow:'2px 2px 2px rgb(119, 118, 118)'}}>
 
-    <ToastContainer/>
+    <ToastContainer theme='black' />
               <form onSubmit={handleSubmit} className="space-y-8 flex-col flex mx-auto justify-center items-center w-full">
                      
                      <p className="flex flex-col xs:flex-row items-center justify-center gap-4 w-full px-3">
                       <label for="name" className="text-xl block ">Name : </label>
-                      <input type="text" name='uname' value={formData.uname} onChange={getVal} id="name" placeholder="Enter your Name" className="p-2 bg-transparent border-b-[1px] rounded-sm"/>
+                      <input type="text" name='uname' value={formData.uname} onChange={getVal} id="name" placeholder="Enter your Name" className="p-2 bg-transparent border-b-[1px] rounded-sm" required/>
                      </p> 
                      
                      <p className="flex flex-col xs:flex-row items-center justify-center gap-4 w-full px-3">
                       <label for="email" className="text-xl block">E-mail : </label>
-                      <input type="email" name='uemail' value={formData.uemail} onChange={getVal} id="email" placeholder="E-mail" className="p-2 bg-transparent border-b-[1px] rounded-sm"/>
+                      <input type="email" name='uemail' value={formData.uemail} onChange={getVal} id="email" placeholder="E-mail" className="p-2 bg-transparent border-b-[1px] rounded-sm" required/>
                      </p>
                       
                       <p className="flex flex-col xs:flex-row items-center justify-center gap-4 w-full px-3">
