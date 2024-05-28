@@ -18,14 +18,13 @@ import Team from './Components/Team'
 import Gallery from './Components/Gallery'
 import Error from './Components/Error'
 import Home from './Components/Home'
-
 import { BrowserRouter,Routes, Route } from 'react-router-dom'
 
 function App() {
+  
   return (
     <>
-      
-      <BrowserRouter>      
+      <BrowserRouter> 
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/Team' element={<Team/>} />
