@@ -11,9 +11,10 @@ import Contact from './Contact'
 import Footer from './Footer'
 import LastLine from './LastLine'
 
+
 function Home() {
   return (
-    <div>
+    <div className='italic'>
       <Navbar/>
       <Hero/>
       <About/>

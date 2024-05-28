@@ -57,7 +57,7 @@ const genres = [
 
 
   return (
-    <div>
+    <div className='italic'>
     <div className="max-w-[1920px] mx-auto text-white">
     <h2 className="text-center sm:text-5xl mt-5 mb-5 text-4xl" style={{fontFamily:'Orbitron'}}>Our Team Members
 

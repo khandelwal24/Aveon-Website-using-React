@@ -44,9 +44,9 @@ function Footer() {
               </div>
             </div>
             <div className="list2">
-              <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+              <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Quick Links</h2>
                 <div className="list-none mb-10">
-                  <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">First Link</a></li>
+                  <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">NewsLetter</a></li>
                   <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Second Link</a></li>
                   <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Third Link</a></li>
                   <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Fourth Link</a></li>
