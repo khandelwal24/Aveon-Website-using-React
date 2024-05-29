@@ -32,7 +32,7 @@ function Footer() {
           </article>
           
           
-          <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-between gap-3 w-full overflow-hidden items-center text-center md:text-left pt-6">
+          <div className="grid md:grid-cols-2 grid-cols-1 justify-between w-[50%] gap-3 overflow-hidden items-center text-center md:text-left pt-6">
             
             <div className="list1">
               <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Quick Links</h2>
@@ -46,32 +46,16 @@ function Footer() {
             <div className="list2">
               <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Quick Links</h2>
                 <div className="list-none mb-10">
+                  <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Back to top</a></li>
                   <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">NewsLetter</a></li>
-                  <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Second Link</a></li>
-                  <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Third Link</a></li>
-                  <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Fourth Link</a></li>
+                  <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Our Institute</a></li>
+                  <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Contact Us</a></li>
                 </div>
               </div>
               
-              <div className="list3">
-              <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
-              <div className="list-none mb-10">
-                <li> <a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">First Link</a></li>
-                <li> <a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Second Link</a></li>
-                  <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Third Link</a></li>
-                  <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Fourth Link</a></li>
-                </div>
-              </div>
+              
 
-              {/* <div className="list4 lg:hidden block ">
-              <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
-              <div className="list-none mb-10">
-                <li><a className="text-white hover:font-semibold">First Link</a></li>
-                <li><a className="text-white hover:font-semibold">Second Link</a></li>
-                  <li><a className="text-white hover:font-semibold">Third Link</a></li>
-                  <li><a className="text-white hover:font-semibold">Fourth Link</a></li>
-                </div>
-              </div> */}
+              
               
               
             </div>

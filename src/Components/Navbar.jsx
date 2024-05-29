@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import logo from '../Images/Logo.png'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
@@ -9,11 +9,23 @@ import pdf from '../Components/pdf/Broucher A.pdf'
 
 
 function Navbar() {
-    let [Nav, setNav] = useState(false);
+    const [Nav, setNav] = useState(false);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        if (Nav) setNav(false);
+      };
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, [Nav]);
+
 
   return (
 
       <nav className="w-[100%] bg-[#080f29] text-white overflow-hidden" style={{position:'sticky', zIndex:'999', top:'0',boxShadow:'3px 2px 10px rgb(65, 80, 216)'}}>
+      <div className={`fixed inset-0 bg-gray-800 bg-opacity-50 transition-opacity ${Nav ? 'opacity-100' : 'opacity-0 pointer-events-none'}`} onClick={() => setNav(!Nav)}></div>
         <div className="max-w-[1260px] mx-auto lg:px-[20px] px-[15px]">
         <div className="flex justify-between items-center py-3">
             <div className="flex items-center xs:space-x-5 space-x-2">
