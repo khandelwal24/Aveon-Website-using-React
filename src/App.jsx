@@ -21,11 +21,11 @@ import Home from './Components/Home'
 import { BrowserRouter,Routes, Route } from 'react-router-dom'
 
 
+
 function App() {
   
   return (
-    <>
-   
+
       <BrowserRouter> 
         <Routes>
           <Route path='/' element={<Home/>}/>
@@ -36,7 +36,6 @@ function App() {
         </Routes>
       </BrowserRouter>
 
-    </>
   )
 }
 
