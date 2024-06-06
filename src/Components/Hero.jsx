@@ -1,6 +1,5 @@
 import React from 'react'
 import C from '../Images/Car.png'
-import Herobg from '../Images/Hero.jpg'
 import pdf from '../Components/pdf/Broucher A.pdf'
 
 function Hero() {
