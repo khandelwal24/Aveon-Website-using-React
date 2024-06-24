@@ -70,7 +70,7 @@ const genres = [
     <hr className="w-1/2 font-bold text-black h-1/2 mb-7 mx-auto"/>
     </div>
 
-<div className="max-w-[1920px] mx-auto grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-4 px-5 py-4" >
+<div className="max-w-[1920px] mx-auto grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-7 sm:px-5 px-10 py-4" >
    {/* <!-- Creating 1st card Using CSS --> */}
 
 {Path.pathname==='/Team' && <>{K21}</>}

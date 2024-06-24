@@ -46,9 +46,9 @@ function Footer() {
             <div className="list2">
               <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Quick Links</h2>
                 <div className="list-none mb-10">
-                  <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Back to top</a></li>
+                  <li><a href='#Home' className="text-white hover:font-semibold hover:cursor-pointer">Back to top</a></li>
                   <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">NewsLetter</a></li>
-                  <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Our Institute</a></li>
+                  <li><a href='https://www.bitmesra.ac.in/bit' className="text-white hover:font-semibold hover:cursor-pointer">Our Institute</a></li>
                   <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Contact Us</a></li>
                 </div>
               </div>

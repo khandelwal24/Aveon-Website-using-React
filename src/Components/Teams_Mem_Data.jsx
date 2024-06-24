@@ -19,7 +19,7 @@ export const Teams_info = [
      {
         img:'../Team Member Images/Ayush Kumar.jpg',
         Name:'Ayush Kumar',
-        Position:'General Secretary',
+        Position:'Captain',
         Insta:'https://www.instagram.com/ashkr1289/',
         Linkedin:'https://www.linkedin.com/in/ayush-kumar-973060199/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
         Mail: 'mailto:ayushkumar20154@gmail.com'
@@ -27,7 +27,7 @@ export const Teams_info = [
      {
         img:'../Team Member Images/Navneet.jpg',
         Name:'Navneet Kumar',
-        Position:'Joint Secretary',
+        Position:'Vice Captain',
         Insta:'https://www.instagram.com/navneet_kumar_2103/',
         Linkedin:'https://www.linkedin.com/in/navneetkumar2103/',
         Mail: 'mailto:ied10010.21@bitmesra.ac.in'
@@ -112,39 +112,39 @@ export const Teams_info = [
 export const Teams_infoK22 =[
    
    {
-         img:'../Team Member Images/me day 3.0.jpg',
+         img:'../Team Member Images/Chandan Kumar.jpeg',
          Name:'Chandan Kumar',
          Position:'General Secretary',
-         Insta:'',
-         Linkedin:'',
-         Mail:'mailto:'
+         Insta:'https://www.instagram.com/chandan95230/',
+         Linkedin:'https://www.linkedin.com/in/chandan-kumar-29495a261',
+         Mail:'mailto:chandan95230@gmail.com'
    },
    {
-         img:'../Team Member Images/me day 3.0.jpg',
+         img:'../Team Member Images/Himanshu.jpg',
          Name:'Himanshu Kumar',
          Position:'Joint Secretary',
-         Insta:'',
+         Insta:'https://www.instagram.com/himanshu_agr14',
          Linkedin:'',
-         Mail:'mailto:'
+         Mail:'mailto:himag1412@gmail.com'
    },
    {
-         img:'../Team Member Images/me day 3.0.jpg',
+         img:'../Team Member Images/Prabhutva Verma.jpg',
          Name:'Prabhutva Verma',
          Position:'Joint Secretary',
-         Insta:'',
-         Linkedin:'',
-         Mail:'mailto:'
+         Insta:'https://www.instagram.com/prabhutvaverma/',
+         Linkedin:'http://www.linkedin.com/in/prabhutvaverma',
+         Mail:'mailto:prabhutvaverma@gmail.com'
    },
    {
-         img:'../Team Member Images/me day 3.0.jpg',
+         img:'../Team Member Images/Shashwat Verma.jpg',
          Name:'Shashwat Verma',
          Position:'Treasurer',
-         Insta:'',
-         Linkedin:'',
-         Mail:'mailto:'
+         Insta:'https://www.instagram.com/vermathinks',
+         Linkedin:'https://www.linkedin.com/in/shashv/',
+         Mail:'mailto:me@shashwatverma.dev'
    },
    {
-         img:'../Team Member Images/me day 3.0.jpg',
+         img:'../Team Member Images/XX.jpeg',
          Name:'Sushil Gupta',
          Position:'Treasurer',
          Insta:'',
@@ -160,7 +160,7 @@ export const Teams_infoK22 =[
          Mail:'mailto:khandelwalharsh333@gmail.com'
    },
    {
-      img:'../Team Member Images/me day 3.0.jpg',
+      img:'../Team Member Images/XX.jpeg',
       Name:'Shrinath',
       Position:'SAE Executive ',
       Insta:'',
@@ -168,47 +168,47 @@ export const Teams_infoK22 =[
       Mail:'mailto:'
    },
    {
-      img:'../Team Member Images/me day 3.0.jpg',
-      Name:'Yash',
+      img:'../Team Member Images/Yash Anand.jpg',
+      Name:'Yash Anand',
       Position:'SAE Executive ',
-      Insta:'',
+      Insta:'https://www.instagram.com/yash.anand.01/',
       Linkedin:'',
-      Mail:'mailto:'
+      Mail:'mailto:yasha4483@gmail.com'
    },
    {
-      img:'../Team Member Images/me day 3.0.jpg',
+      img:'../Team Member Images/Aakarsh.jpg',
       Name:'Aakarsh',
       Position:'Design lead',
-      Insta:'',
-      Linkedin:'',
-      Mail:'mailto:'
+      Insta:'https://www.instagram.com/aakarsh01_06/',
+      Linkedin:'https://www.linkedin.com/in/aakarsh-kumar-0baa6526b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      Mail:'mailto:aakarshkumar890@gmail.com'
    },
    {
-      img:'../Team Member Images/me day 3.0.jpg',
+      img:'../Team Member Images/ARYAN SINGH.jpg',
       Name:'Aryan',
       Position:'Vehicle Dynamics lead',
-      Insta:'',
-      Linkedin:'',
-      Mail:'mailto:'
+      Insta:'https://www.instagram.com/_aryan.singh_01/',
+      Linkedin:'https://www.linkedin.com/in/aryan-singh-2a7701302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      Mail:'mailto:aryansinghas2004@gmail.com'
    },
    {
-      img:'../Team Member Images/me day 3.0.jpg',
-      Name:'Kunal',
+      img:'../Team Member Images/Kunal.jpg',
+      Name:'Kunal kumar Saw',
       Position:'Roll Cage lead',
-      Insta:'',
-      Linkedin:'',
-      Mail:'mailto:'
+      Insta:'https://www.instagram.com/__princerajveerroy__/',
+      Linkedin:'https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFGh9Rc0hfx6gAAAZA6J-cgqR4DjPgZjB3PO5bf-M92SNpJNlAH2bydKsVtvwITuq05wb36V_GFj7pGRQrJQr7N940lbTW3ok9iqnYvBnhySWOt1Sj3lzyI4xRf6aPeGmEB7Xo=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fkunal-kumar-saw-69349827a%3FminiProfileUrn%3Durn%253Ali%253Afs_miniProfile%253AACoAAEQPIs8Be4CoE-yu4MfoImG6-RchU8DRhYk%26lipi%3Durn%253Ali%253Apage%253Ad_flagship3_search_srp_all%253BxiqOeFjESauiGkteUwm2YA%253D%253D',
+      Mail:'mailto:kunalkumarsawkohli@gmail.com'
    },
    {
-      img:'../Team Member Images/me day 3.0.jpg',
+      img:'../Team Member Images/Anjan.jpg',
       Name:'Anjan',
       Position:'Transmisson lead',
-      Insta:'',
-      Linkedin:'',
-      Mail:'mailto:'
+      Insta:'https://www.instagram.com/anjannnnn___/',
+      Linkedin:'https://www.linkedin.com/in/anjan-kumar-rajak-babb7b268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      Mail:'mailto:anjanrajak2003@gmail.com'
    },
    {
-      img:'../Team Member Images/me day 3.0.jpg',
+      img:'../Team Member Images/XX.jpeg',
       Name:'Sourav',
       Position:'Breaks lead',
       Insta:'',
@@ -216,27 +216,27 @@ export const Teams_infoK22 =[
       Mail:'mailto:'
    },
    {
-      img:'../Team Member Images/me day 3.0.jpg',
+      img:'../Team Member Images/Saurabh.JPG',
       Name:'Saurabh',
       Position:'Electrical lead',
-      Insta:'',
-      Linkedin:'',
-      Mail:'mailto:'
+      Insta:'https://www.instagram.com/saurabhpandey21_08',
+      Linkedin:'http://www.linkedin.com/in/samarth-lakra-32918b219',
+      Mail:'mailto:saurabhpandey59254@gmail.com'
    },
    {
-      img:'../Team Member Images/me day 3.0.jpg',
-      Name:'Astha',
+      img:'../Team Member Images/Astha Kaushik.jpeg',
+      Name:'Astha Kaushik',
       Position:'Documentation lead',
-      Insta:'',
-      Linkedin:'',
-      Mail:'mailto:'
+      Insta:'https://www.instagram.com/asthakaushik10/',
+      Linkedin:'https://www.linkedin.com/in/astha-kaushik-9bb41a290?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BIa1ZRI55SeGwwPinqJcVWw%3D%3D',
+      Mail:'mailto:Btech10773.22@bitmesra.ac.in'
    },
    {
-      img:'../Team Member Images/me day 3.0.jpg',
-      Name:'Anuradha',
+      img:'../Team Member Images/Anuradha.jpg',
+      Name:'Anuradha Mazumdar ',
       Position:'Documentation lead',
-      Insta:'',
-      Linkedin:'',
-      Mail:'mailto:'
+      Insta:'https://www.instagram.com/anuradha_004/',
+      Linkedin:'https://www.linkedin.com/in/anuradha-mazumdar-292575259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      Mail:'mailto:btech10848.22@bitmesra.ac.in'
    },
 ]

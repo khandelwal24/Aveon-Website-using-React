@@ -10,11 +10,11 @@
 
 
 body{
-  background-image: url(./Images/4183889.jpg);
+  background-image: url(./Images/Another.jpg);
   background-repeat: no-repeat;
   background-attachment:fixed;
-  background-position:left;
-  background-size:auto;
+  background-position:center;
+  background-size:cover;
 }
 
 .lastline{

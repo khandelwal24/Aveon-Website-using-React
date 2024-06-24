@@ -46,8 +46,8 @@ function Navbar() {
         </div>
         </div>
 
-        <div className= {Nav ? 'fixed left-0 top-0 w-[100%] h-full bg-[#080f29] rounded-e-xl text-center ease-in-out duration-300 opacity-90': 'bg-[#080f29] ease-in-out duration-300 text-center fixed -left-40 '} style={{fontFamily:'Orbitron',padding:'5px'}} >
-        <img src={logo} className= {`text-3xl font-bold text-white mb-6 px-4 py-[14px] ${ !Nav ? 'hidden' : 'block'} `}/>
+        <div className= {Nav ? 'fixed left-0 top-0 w-[100%] h-full bg-[#080f29] rounded-e-xl text-center ease-in-out duration-300 opacity-95': 'bg-[#080f29] ease-in-out duration-300 text-center fixed -left-40 '} style={{fontFamily:'Orbitron',padding:'5px'}} >
+        <img src={logo} width={200} className= {`text-3xl font-bold text-white mb-6 px-4 py-[14px] ${ !Nav ? 'hidden' : 'block'} `}/>
           <a href="#Home" className=" border-b-[1px] rounded-xl border-white block py-3 px-2 mb-3 hover:bg-[#213068] hover:transition-all ease-in-out duration-75">Home</a>
           <a href="#About" className=" border-b-[1px] rounded-xl border-white block py-3 px-2 mb-3 hover:bg-[#213068] hover:transition-all ease-in-out duration-75">About</a>
           <NavLink to={'/Team'} className=" border-b-[1px] rounded-xl border-white block py-3 px-2 mb-3 hover:bg-[#213068] hover:transition-all ease-in-out duration-75">Team</NavLink>
