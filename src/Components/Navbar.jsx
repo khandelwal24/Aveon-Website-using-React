@@ -24,7 +24,7 @@ function Navbar() {
 
   return (
 
-      <nav className="w-[100%] bg-[#080f29] text-white overflow-hidden" style={{position:'sticky', zIndex:'999', top:'0',boxShadow:'3px 2px 10px rgb(65, 80, 216)'}}>
+      <nav className="w-[100%] bg-black text-white overflow-hidden" style={{position:'sticky', zIndex:'999', top:'0',boxShadow:'3px 2px 10px rgb(65, 80, 216)'}}>
       <div className={`fixed inset-0 bg-gray-800 bg-opacity-50 transition-opacity ${Nav ? 'opacity-100' : 'opacity-0 pointer-events-none'}`} onClick={() => setNav(!Nav)}></div>
         <div className="max-w-[1260px] mx-auto lg:px-[20px] px-[15px]">
         <div className="flex justify-between items-center py-3">
@@ -46,7 +46,7 @@ function Navbar() {
         </div>
         </div>
 
-        <div className= {Nav ? 'fixed left-0 top-0 w-[100%] h-full bg-[#080f29] rounded-e-xl text-center ease-in-out duration-300 opacity-95': 'bg-[#080f29] ease-in-out duration-300 text-center fixed -left-40 '} style={{fontFamily:'Orbitron',padding:'5px'}} >
+        <div className= {Nav ? 'fixed left-0 top-0 w-[100%] h-full lol rounded-e-xl text-center ease-in-out duration-300 opacity-95': 'bg-[#080f29] ease-in-out duration-300 text-center fixed -left-40 '} style={{fontFamily:'Orbitron',padding:'5px'}} >
         <img src={logo} width={200} className= {`text-3xl font-bold text-white mb-6 px-4 py-[14px] ${ !Nav ? 'hidden' : 'block'} `}/>
           <a href="#Home" className=" border-b-[1px] rounded-xl border-white block py-3 px-2 mb-3 hover:bg-[#213068] hover:transition-all ease-in-out duration-75">Home</a>
           <a href="#About" className=" border-b-[1px] rounded-xl border-white block py-3 px-2 mb-3 hover:bg-[#213068] hover:transition-all ease-in-out duration-75">About</a>

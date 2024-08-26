@@ -10,7 +10,7 @@
 
 
 body{
-  background-image: url(./Images/Another.jpg);
+  background-image: url(./Images/io.jpg);
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-position:center;
@@ -18,7 +18,7 @@ body{
 }
 
 .lastline{
- background-color: #030838;
+ background-color: black;
 }
 
 body::-webkit-scrollbar{
@@ -27,4 +27,7 @@ body::-webkit-scrollbar{
 
 html{
   scroll-behavior: smooth;
+}
+.lol{
+  background-image: url(./Images/io.jpg);
 }

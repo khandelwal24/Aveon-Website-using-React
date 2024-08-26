@@ -14,7 +14,7 @@ function Footer() {
 
   return (
     <div>
-       <footer className="bg-[#080f29] w-[100%] body-font border-t-[2px] border-gray-200 py-16">
+       <footer className="bg-black w-[100%] body-font border-t-[2px] border-gray-200 py-16">
         <div className="max-w-[1260px]  mx-auto sm:px-9 px-7 overflow-hidden">
           <div className="flex justify-between items-center gap-5 overflow-hidden md:flex-row flex-col">
             
@@ -48,7 +48,7 @@ function Footer() {
                 <div className="list-none mb-10">
                   <li><a href='#Home' className="text-white hover:font-semibold hover:cursor-pointer">Back to top</a></li>
                   <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">NewsLetter</a></li>
-                  <li><a href='https://www.bitmesra.ac.in/bit' className="text-white hover:font-semibold hover:cursor-pointer">Our Institute</a></li>
+                  <li><a href='https://www.bitmesra.ac.in/' className="text-white hover:font-semibold hover:cursor-pointer">Our Institute</a></li>
                   <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Contact Us</a></li>
                 </div>
               </div>

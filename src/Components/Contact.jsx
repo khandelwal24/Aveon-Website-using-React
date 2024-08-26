@@ -18,15 +18,49 @@ function Contact() {
         setformData(oldVal);
     }
 
-    let handleSubmit = (e)=>{
-      toast.success('Submitted Successfully');
-      e.preventDefault();
-      setformData({
-        uname:'',
-        uemail:'',
-        umessage:'',
-      })
+    // let handleSubmit = (e)=>{
+    //   toast.success('Submitted Successfully');
+    //   e.preventDefault();
+    //   setformData({
+    //     uname:'',
+    //     uemail:'',
+    //     umessage:'',
+    //   })
+    // }
+    
+    
+    /* This was made using Web3 form web service */
+
+    const [result, setResult] = React.useState("");
+
+    const onSubmitt = async (event) => {
+    toast.success('Submitted Successfully');
+    event.preventDefault();
+    setformData({
+      uname:'',
+      uemail:'',
+      umessage:'',
+    })
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "04f46d1a-f683-487a-b1ca-14468d9f455f");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
     }
+  };
 
   return (
     <div>
@@ -39,7 +73,7 @@ function Contact() {
             <div data-aos="flip-left" data-aos-duration="1000"  className="text-white opacity-95 flex items-center justify-center max-w-[750px] space-x-3 bg-gray-900 py-7 mx-auto rounded-3xl overflow-hidden border-[1px] border-b-orange-100" style={{boxShadow:'5px 5px 10px rgb(119, 118, 118), -3px -5px 10px rgb(119, 118, 118)'}}>
 
     <ToastContainer theme='dark' />
-              <form onSubmit={handleSubmit} className="space-y-8 flex-col flex mx-auto justify-center items-center w-full">
+              <form onSubmit={onSubmitt} className="space-y-8 flex-col flex mx-auto justify-center items-center w-full">
                      
                      <p className="flex flex-col xs:flex-row items-center justify-center gap-4 w-full px-3">
                       <label for="name" className="text-xl block ">Name : </label>
