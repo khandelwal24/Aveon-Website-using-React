@@ -10,6 +10,7 @@ import Achievements from './Achievements'
 import Contact from './Contact'
 import Footer from './Footer'
 import LastLine from './LastLine'
+import College from './College'
 
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
     <div className='italic'>
       <Navbar/>
       <Hero/>
+      <College/>
       <About/>
       <Vehicle/>
       <Mobility/>

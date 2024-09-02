@@ -5,7 +5,7 @@ import { IoClose } from "react-icons/io5";
 import { NavLink } from 'react-router-dom';
 import Team from './Team';
 import Gallery from './Gallery';
-import pdf from '../Components/pdf/Broucher A.pdf'
+import pdf from '../Components/pdf/Team Aveon Broucher 2024-25.pdf'
 
 
 function Navbar() {

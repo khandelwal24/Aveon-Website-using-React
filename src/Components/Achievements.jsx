@@ -15,7 +15,7 @@ function Achievements() {
           <div className="space-y-10">               
                     {Achive.map((v,i)=>{
                        return(
-                        <div key={i} className="grid sm:grid-cols-2 grid-cols-1 gap-3 max-w-[850px] bg-[#080f29] text-white mx-auto px-7 py-5 rounded-2xl items-center justify-center text-center justify-items-center border-[1px] border-b-orange-200" style={{boxShadow:'5px 5px 10px rgb(65, 80, 216),-5px -5px 10px rgb(90,89,208)'}} data-aos="flip-up" data-aos-duration="5000">
+                        <div key={i} className="backdrop-blur-xl bg-opacity-30 grid sm:grid-cols-2 grid-cols-1 gap-3 max-w-[850px] bg-[#080f29] text-white mx-auto px-7 py-5 rounded-2xl items-center justify-center text-center justify-items-center border-[1px] border-b-orange-200" style={{boxShadow:'5px 5px 10px rgb(65, 80, 216),-5px -5px 10px rgb(90,89,208)'}} data-aos="flip-up" data-aos-duration="5000">
                         
                         <img src={v.img} width={250} className='rounded-full border-[2px] border-[#4150d8]' style={{boxShadow:'5px 3px 5px rgb(65, 80, 216)'}}/>
                         

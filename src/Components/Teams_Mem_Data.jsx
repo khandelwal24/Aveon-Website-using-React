@@ -95,17 +95,7 @@ export const Teams_info = [
       Insta:'https://www.instagram.com/swatikumari7892/',
       Linkedin:'https://www.linkedin.com/in/swatikumari08',
       Mail:'mailto:swatikumari3259@gmail.com'
-   },
-     
-     {
-        img:'../Team Member Images/me day 3.0.jpg',
-        Name:'Harsh Khandelwal',
-        Position:'Web Master',
-        Insta:'https://www.instagram.com/khandelwal0024/',
-        Linkedin:'https://www.linkedin.com/in/harshwardhan-khandelwal-86104625a/',
-        Mail:'mailto:khandelwalharsh333@gmail.com'
-     },
-
+   }
 ]
 
 

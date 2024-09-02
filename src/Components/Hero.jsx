@@ -1,6 +1,6 @@
 import React from 'react'
 import C from '../Images/Car.png'
-import pdf from '../Components/pdf/Broucher A.pdf'
+import pdf from '../Components/pdf/Team Aveon Broucher 2024-25.pdf'
 
 function Hero() {
   return (
