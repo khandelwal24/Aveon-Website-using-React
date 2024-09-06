@@ -1,5 +1,9 @@
 export const Img_info = [
     {
+        img:'../Sponsors_Img/cmpi.png'
+    },
+    
+    {
         img:'../Sponsors_Img/1.jpg',
     },
     {
@@ -40,7 +44,5 @@ export const Img_info = [
     },
     {
         img:'https://ushamartin.com/images/logo.png'
-    },
-    
-    
+    }    
 ]

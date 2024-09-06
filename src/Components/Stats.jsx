@@ -24,7 +24,7 @@ function Stats() {
             {/* <!-- 4nd block --> */}
             <div class="backdrop-blur-lg bg-opacity-30 text-center opacity-90 space-y-2 group hover:bg-gradient-to-r from-cyan-500 to-blue-500 ... py-2 rounded-xl border-x-[1px] border-cyan-500 hover:scale-105 hover:transition-all duration-100 hover:text-black">
                 <div class="font-bold md:text-4xl text-3xl">Top-10</div>
-                <p>Among 60+ ATVs from diffenent colleges</p>
+                <p>Among 60+ e-ATVs Teams</p>
             </div>
           </div>
         </div>

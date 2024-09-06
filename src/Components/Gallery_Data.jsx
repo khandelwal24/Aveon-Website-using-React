@@ -69,4 +69,25 @@ export const Gallery_info = [
     {
         img:'../Gallery/23.jpg'
     },
+    {
+        img:'../Gallery/24.jpg'
+    },
+    {
+        img:'../Gallery/25.jpg'
+    },
+    {
+        img:'../Gallery/26.jpg'
+    },
+    {
+        img:'../Gallery/27.jpg'
+    },
+    {
+        img:'../Gallery/28.jpg'
+    },
+    {
+        img:'../Gallery/29.jpg'
+    },
+    {
+        img:'../Gallery/30.jpg'
+    },
 ]
