@@ -1,12 +1,37 @@
 export const Teams_info = [
   
-   {
+      {
       img:'../Team Member Images/Utkarsh.jpg',
       Name:'Utkarsh',
       Position:'President',
       Insta:'https://www.instagram.com/utkarsh__01/',
       Linkedin:'',
       Mail:'mailto:btech10263.21@bitmesra.ac.in'
+      },
+
+      {
+         img:'../Team Member Images/Abhi Dasgupta.jpg',
+         Name:'Abhi Das Gupta',
+         Position:'Vice President',
+         Insta:'https://www.instagram.com/abhi_02216/',
+         Linkedin:'https://www.linkedin.com/in/abhi-dasgupta-780756241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+         Mail:'mailto:abhidasgupta22@gmail.com'
+      },
+      {
+         img:'../Team Member Images/Ayush Kumar.jpg',
+         Name:'Ayush Kumar',
+         Position:'Captain',
+         Insta:'https://www.instagram.com/ashkr1289/',
+         Linkedin:'https://www.linkedin.com/in/ayush-kumar-973060199/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+         Mail: 'mailto:ayushkumar20154@gmail.com'
+      },
+      {
+         img:'../Team Member Images/Navneet.jpg',
+         Name:'Navneet Kumar',
+         Position:'Vice Captain',
+         Insta:'https://www.instagram.com/navneet_kumar_2103/',
+         Linkedin:'https://www.linkedin.com/in/navneetkumar2103/',
+         Mail: 'mailto:ied10010.21@bitmesra.ac.in'
       },
    //  {
    //      img:'../Team Member Images/Rishav Mittal.jpg',
@@ -24,32 +49,6 @@ export const Teams_info = [
    //    Linkedin:'https://www.linkedin.com/in/vaishnav-khare-33192a200',
    //    Mail:'mailto:Kharevaishnav@gmail.com'
    //    },
-      {
-         img:'../Team Member Images/Navneet.jpg',
-         Name:'Navneet Kumar',
-         Position:'Captain',
-         Insta:'https://www.instagram.com/navneet_kumar_2103/',
-         Linkedin:'https://www.linkedin.com/in/navneetkumar2103/',
-         Mail: 'mailto:ied10010.21@bitmesra.ac.in'
-      },
-     {
-        img:'../Team Member Images/Ayush Kumar.jpg',
-        Name:'Ayush Kumar',
-        Position:'Vice Captain',
-        Insta:'https://www.instagram.com/ashkr1289/',
-        Linkedin:'https://www.linkedin.com/in/ayush-kumar-973060199/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-        Mail: 'mailto:ayushkumar20154@gmail.com'
-     },
-     
-     {
-        img:'../Team Member Images/Abhi Dasgupta.jpg',
-        Name:'Abhi Das Gupta',
-        Position:'Vice President',
-        Insta:'https://www.instagram.com/abhi_02216/',
-        Linkedin:'https://www.linkedin.com/in/abhi-dasgupta-780756241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-        Mail:'mailto:abhidasgupta22@gmail.com'
-     },
-     
      {
         img:'../Team Member Images/Shubham Agrawal.jpg',
         Name:'Shubham Agrawal',
@@ -78,9 +77,9 @@ export const Teams_info = [
       img:'../Team Member Images/Tanmay.jpg',
       Name:'Tanmay Raj',
       Position:'Electrical head',
-      Insta:'https://www.instagram.com/a.new_deep/',
-      Linkedin:'https://www.linkedin.com/in/anudeep-appie/',
-      Mail:'mailto:btech10679.21@bitmesra.ac.in'
+      Insta:'https://www.instagram.com/tanmayraj321/',
+      Linkedin:'https://www.linkedin.com/in/tanmay-raj-54562a223/',
+      Mail:'mailto:raj.21.tanmay321@gmail.com'
    },
 
    //   {
