@@ -146,12 +146,20 @@ export const Teams_infoK22 =[
          Mail:'mailto:me@shashwatverma.dev'
    },
    {
-         img:'../Team Member Images/XX.jpeg',
+         img:'../Team Member Images/Sushil.jpg',
          Name:'Sushil Gupta',
          Position:'Treasurer',
-         Insta:'',
+         Insta:'https://www.instagram.com/sushilgupta.202?igsh=N3J6N3Fodmc4Zmln',
          Linkedin:'',
-         Mail:'mailto:'
+         Mail:'mailto:guptasushil5810@gmail.com',
+   },
+   {
+      img:'../Team Member Images/Saurabh.JPG',
+      Name:'Saurabh Pandey',
+      Position:'Electrical lead',
+      Insta:'https://www.instagram.com/saurabhpandey21_08',
+      Linkedin:'https://www.linkedin.com/in/saurabh-pandey-552712256/',
+      Mail:'mailto:saurabhpandey59254@gmail.com',
    },
    {
          img:'../Team Member Images/me day 3.0.jpg',
@@ -162,20 +170,12 @@ export const Teams_infoK22 =[
          Mail:'mailto:khandelwalharsh333@gmail.com'
    },
    {
-      img:'../Team Member Images/XX.jpeg',
-      Name:'Shrinath',
-      Position:'SAE Executive ',
-      Insta:'',
-      Linkedin:'',
-      Mail:'mailto:'
-   },
-   {
-      img:'../Team Member Images/Yash Anand.jpg',
-      Name:'Yash Anand',
-      Position:'SAE Executive ',
-      Insta:'https://www.instagram.com/yash.anand.01/',
-      Linkedin:'',
-      Mail:'mailto:yasha4483@gmail.com'
+      img:'../Team Member Images/Priyanshu.jpg',
+      Name:'Priyanshu Agrahari',
+      Position:'Electrical lead',
+      Insta:'https://www.instagram.com/priyanshu_agrahari91?igsh=bnRna3puemc1Mmk=',
+      Linkedin:'https://www.linkedin.com/in/priyanshu-agrahari-a838a024a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      Mail:'mailto:agraharipriyanshu52@gmail.com',
    },
    {
       img:'../Team Member Images/Aakarsh.jpg',
@@ -211,19 +211,27 @@ export const Teams_infoK22 =[
    },
    {
       img:'../Team Member Images/XX.jpeg',
-      Name:'Sourav',
-      Position:'Breaks lead',
+      Name:'Shrinath',
+      Position:'SAE Executive ',
       Insta:'',
       Linkedin:'',
       Mail:'mailto:'
    },
    {
-      img:'../Team Member Images/Saurabh.JPG',
-      Name:'Saurabh',
-      Position:'Electrical lead',
-      Insta:'https://www.instagram.com/saurabhpandey21_08',
-      Linkedin:'http://www.linkedin.com/in/samarth-lakra-32918b219',
-      Mail:'mailto:saurabhpandey59254@gmail.com'
+      img:'../Team Member Images/Yash Anand.jpg',
+      Name:'Yash Anand',
+      Position:'SAE Executive ',
+      Insta:'https://www.instagram.com/yash.anand.01/',
+      Linkedin:'',
+      Mail:'mailto:yasha4483@gmail.com'
+   },
+   {
+      img:'../Team Member Images/XX.jpeg',
+      Name:'Sourav',
+      Position:'Breaks lead',
+      Insta:'',
+      Linkedin:'',
+      Mail:'mailto:',
    },
    {
       img:'../Team Member Images/Astha Kaushik.jpeg',
