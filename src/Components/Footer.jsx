@@ -35,7 +35,7 @@ function Footer() {
           <div className="grid md:grid-cols-2 grid-cols-1 justify-between w-[50%] gap-3 overflow-hidden items-center text-center md:text-left pt-6">
             
             <div className="list1">
-              <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Quick Links</h2>
+              <p className="title-font font-medium text-white tracking-widest text-sm mb-3">Quick Links</p>
               <div className="list-none mb-10">
                 <li><Link to={'/'} className="text-white hover:font-semibold">Home</Link></li>
                 <li><Link to={'/'} className="text-white hover:font-semibold">About</Link></li>
@@ -44,7 +44,7 @@ function Footer() {
               </div>
             </div>
             <div className="list2">
-              <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Quick Links</h2>
+              <p className="title-font font-medium text-white tracking-widest text-sm mb-3">Quick Links</p>
                 <div className="list-none mb-10">
                   <li><a href='#Home' className="text-white hover:font-semibold hover:cursor-pointer">Back to top</a></li>
                   <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">NewsLetter</a></li>

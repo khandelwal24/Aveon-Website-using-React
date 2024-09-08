@@ -7,9 +7,9 @@ function Gallery() {
   return (
     <div className='italic'>
         <div className="max-w-[1260px] mx-auto sm:px-[24px] px-[18px] py-6">
-                <h1 className="xs:text-5xl text-3xl text-center text-white" style={{fontFamily:'Orbitron'}}>
+                <div className="xs:text-5xl text-3xl text-center text-white" style={{fontFamily:'Orbitron'}}>
                     Team Gallery
-                </h1>
+                </div>
                 <hr className="mx-auto w-1/2 text-white my-6"/>
                 <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 overflow-hidden grid-flow-row justify-items-center">
 

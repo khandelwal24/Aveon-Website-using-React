@@ -16,10 +16,12 @@ import College from './College'
 function Home() {
   return (
     <div className='italic'>
-    <header><Navbar/></header>
+    <header>
+      <Navbar/>
+      <Hero/>
+    </header>
 
     <main>
-      <Hero/>
       <College/>
       <About/>
       <Vehicle/>
