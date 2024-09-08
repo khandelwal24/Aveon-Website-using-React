@@ -39,7 +39,7 @@ function Footer() {
               <div className="list-none mb-10">
                 <li><Link to={'/'} className="text-white hover:font-semibold">Home</Link></li>
                 <li><Link to={'/'} className="text-white hover:font-semibold">About</Link></li>
-                <li><Link to={'/Team'}  className="text-white hover:font-semibold">Teams</Link></li>
+                <li><Link to={'/Team'}  className="text-white hover:font-semibold">Team</Link></li>
                 <li><Link to={'/Gallery'}  className="text-white hover:font-semibold">Gallery</Link></li>
               </div>
             </div>

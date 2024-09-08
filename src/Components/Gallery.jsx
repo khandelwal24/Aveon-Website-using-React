@@ -11,11 +11,11 @@ function Gallery() {
                     Team Gallery
                 </h1>
                 <hr className="mx-auto w-1/2 text-white my-6"/>
-                <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 overflow-hidden grid-flow-row  justify-items-center">
+                <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 overflow-hidden grid-flow-row justify-items-center">
 
                {Gallery_info.map((v,i)=>{
                 return(
-                    <img src={v.img} className="w-96 h-full hover:scale-150 duration-300 overflow-hidden border-[2px] border-gray-300 rounded-lg"/>
+                    <img src={v.img} className="w-96 h-full hover:scale-125 duration-300 overflow-hidden border-[2px] border-gray-300 rounded-lg"/>
                 )
                })}
 

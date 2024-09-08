@@ -10,7 +10,7 @@ function Vehicle() {
               <img src={FV} loading="lazy" className="h-80 border-white border-[2px] rounded-xl" data-aos="zoom-in" data-aos-duration="1000"/> 
                 <div className="flex justify-end flex-col gap-5" data-aos="fade-left" data-aos-duration="1000">
                     <h1 className="text-gray-200 md:text-6xl text-4xl leading-[1.5]" style={{fontFamily:'Orbitron'}}> <span className='text-[#4150d8]'>Electric</span>  All-Terrain Vehicle</h1>
-                    <p className="text-lg text-white mt-4"><strong>BAJA SAE INDIA</strong> is an international student-level competition that challenges teams to design and build a rugged, single-seat atv. The goal for each team is to create a prototype that can pass various tests that also includes an endurance race. As part of the SAE INDIA , we accepted this challenge and decided to build an Electric All-Terrain Vehicle by intergrating all the individual skills and knowlege into work.</p>
+                    <p className="text-lg text-white mt-4"><strong>BAJA SAE INDIA</strong> is an international student-level competition that challenges Team Aveon to design and build a rugged, single-seat e-ATV. The goal for each team is to create a prototype that can pass various tests that also includes an endurance race. As part of the SAE INDIA , we accepted this challenge and decided to build an Electric All-Terrain Vehicle by intergrating all the individual skills and knowlege into work.</p>
                 </div>
             </div>
         </div>

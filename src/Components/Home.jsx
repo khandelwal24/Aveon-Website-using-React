@@ -16,7 +16,9 @@ import College from './College'
 function Home() {
   return (
     <div className='italic'>
-      <Navbar/>
+    <header><Navbar/></header>
+
+    <main>
       <Hero/>
       <College/>
       <About/>
@@ -26,7 +28,8 @@ function Home() {
       <Sponsors/>
       <Achievements/>
       <Contact/>
-      <Footer/>
+      </main>
+    <footer><Footer/></footer> 
       <LastLine/>
     </div>
   )
