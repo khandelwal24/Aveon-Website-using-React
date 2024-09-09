@@ -9,7 +9,7 @@ function College() {
         <div className="max-w-[1260px] mx-auto sm:px-9 px-7 overflow-hidden">
             <div className="flex justify-between items-center lg:flex-row flex-col gap-10">
                 
-               <img src={SV} className="h-80 border-[2px] border-white rounded-xl" loading="lazy" data-aos="fade-down" data-aos-duration="1000"/>
+               <img src={SV} alt='college Img' className="h-80 border-[2px] border-white rounded-xl" loading="lazy" data-aos="fade-down" data-aos-duration="1000"/>
 
                <div className="flex justify-end flex-col gap-5" data-aos="fade-up" data-aos-duration="1000">
                     <div className="text-gray-200 md:text-6xl text-4xl" style={{fontFamily:'Orbitron'}}>Our<span className='text-[#4150d8]'> Institution</span></div>

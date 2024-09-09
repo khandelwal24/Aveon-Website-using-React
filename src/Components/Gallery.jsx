@@ -15,7 +15,7 @@ function Gallery() {
 
                {Gallery_info.map((v,i)=>{
                 return(
-                    <img src={v.img} className="w-96 h-full hover:scale-125 duration-300 overflow-hidden border-[2px] border-gray-300 rounded-lg"/>
+                    <img src={v.img} alt='Team Image' className="w-96 h-full hover:scale-125 duration-300 overflow-hidden border-[2px] border-gray-300 rounded-lg"/>
                 )
                })}
 

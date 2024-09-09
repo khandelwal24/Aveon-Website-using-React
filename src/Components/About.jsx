@@ -11,7 +11,7 @@ function About() {
                     <div className="text-gray-200 md:text-6xl text-4xl" style={{fontFamily:'Orbitron'}} >About <span className='text-[#4150d8]'>Us</span></div>
                     <p className="text-lg text-white mt-4 max-w-[700px]"><h1 className='inline-block'>Team Aveon Racing</h1> consists of 25 members and 15 interns from different disciplines who come together to design and fabricate an <strong>Electric all terrain Vehicle</strong> and participate in the national level event, <strong>e-BAJA SAE INDIA.</strong> Team Aveon comprises students from the departments of Mechanical Engineering, Electrical & Electronics Engineering,Electronics & Communications Engineering, and Computer Science Engineering. Team Aveon was established in with the sole purpose of utilising technical knowledge and inspiring research for manufacture of alternate energy automobiles. We were the first E-BAJA team from East India. Our club aims to foster a passion for high-performance vehicles, build camaraderie among members, and excel in motorsports</p>
                 </div>
-                  <div data-aos="fade-left" data-aos-duration="1000"><img src={GI} loading="lazy" className="h-80 border-[2px] border-white rounded-xl"/></div>  
+                  <div data-aos="fade-left" data-aos-duration="1000"><img src={GI} alt='team img' loading="lazy" className="h-80 border-[2px] border-white rounded-xl"/></div>  
             </div>
         </div>
     </section>
