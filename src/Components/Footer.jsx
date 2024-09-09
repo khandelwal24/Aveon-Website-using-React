@@ -19,7 +19,7 @@ function Footer() {
           <div className="flex justify-between items-center gap-5 overflow-hidden md:flex-row flex-col">
             
             <article className='mmd:mr-8'>
-              <img src={LL} className="h-12 mx-auto md:mx-0"/>
+              <img src={LL} alt='logo' className="h-12 mx-auto md:mx-0"/>
             <div className="md:text-left text-center">
               <p className="mt-2 text-md text-white ">An e-ATV Racing Team of Birla Institute of Technology - Mesra, Ranchi</p>
               <div data-aos="flip-up" data-aos-duration="5000" className="space-x-4 text-white py-3 text-3xl flex justify-center md:justify-start">

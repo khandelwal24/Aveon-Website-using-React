@@ -29,7 +29,7 @@ function Navbar() {
         <div className="max-w-[1260px] mx-auto lg:px-[20px] px-[15px]">
         <div className="flex justify-between items-center py-3">
             <div className="flex items-center xs:space-x-5 space-x-2">
-                <img src={logo} className="h-12"/>
+                <img src={logo} alt='logo' className="h-12"/>
             </div>
             <div className="text-2xl space-x-5 lg:block hidden" style={{fontFamily:'Orbitron'}}>
                 <a href="#Home" className="hover:text-gray-500 hover:border-b-[2px] border-white hover:transition-all ease-in-out duration-75 ">Home</a>
@@ -47,7 +47,7 @@ function Navbar() {
         </div>
 
         <div className= {Nav ? 'fixed left-0 top-0 w-[100%] h-full lol rounded-e-xl text-center ease-in-out duration-300 opacity-95': 'bg-[#080f29] ease-in-out duration-300 text-center fixed -left-40 '} style={{fontFamily:'Orbitron',padding:'5px'}} >
-        <img src={logo} width={200} className= {`text-3xl font-bold text-white mb-6 px-4 py-[14px] ${ !Nav ? 'hidden' : 'block'} `}/>
+        <img src={logo} alt='logo' width={200} className= {`text-3xl font-bold text-white mb-6 px-4 py-[14px] ${ !Nav ? 'hidden' : 'block'} `}/>
           <a href="#Home" className=" border-b-[1px] rounded-xl border-white block py-3 px-2 mb-3 hover:bg-[#213068] hover:transition-all ease-in-out duration-75">Home</a>
           <a href="#About" className=" border-b-[1px] rounded-xl border-white block py-3 px-2 mb-3 hover:bg-[#213068] hover:transition-all ease-in-out duration-75">About</a>
           <NavLink to={'/Team'} className=" border-b-[1px] rounded-xl border-white block py-3 px-2 mb-3 hover:bg-[#213068] hover:transition-all ease-in-out duration-75">Team</NavLink>
