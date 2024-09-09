@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /Team
+Disallow: /Gallery
+Allow: /
