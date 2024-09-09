@@ -47,9 +47,11 @@ function Footer() {
               <p className="title-font font-medium text-white tracking-widest text-sm mb-3">Quick Links</p>
                 <div className="list-none mb-10">
                   <li><a href='#Home' className="text-white hover:font-semibold hover:cursor-pointer">Back to top</a></li>
-                  <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">NewsLetter</a></li>
+                  {/* <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">NewsLetter</a></li> */}
                   <li><a href='https://www.bitmesra.ac.in/' className="text-white hover:font-semibold hover:cursor-pointer">Our Institute</a></li>
-                  <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Contact Us</a></li>
+                  <li><a href='https://teamaveon.org' className="text-white hover:font-semibold hover:cursor-pointer">Team Aveon</a></li>
+                  <li><a href='https://teamaveon.org' className="text-white hover:font-semibold hover:cursor-pointer">Team Aveon</a></li>
+                  {/* <li><a onClick={click} className="text-white hover:font-semibold hover:cursor-pointer">Contact Us</a></li> */}
                 </div>
               </div>
               

@@ -23,6 +23,7 @@ function Gallery() {
             </div>
 <Footer/>
 <LastLine/>
+
     </div>
   )
 }
