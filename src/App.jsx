@@ -16,7 +16,7 @@ import LastLine from './Components/LastLine'
 
 import Team from './Components/Team'
 import Gallery from './Components/Gallery'
-import Error from './Components/Error'
+// import Error from './Components/Error'
 import Home from './Components/Home'
 import { BrowserRouter,Routes, Route } from 'react-router-dom'
 
@@ -32,7 +32,7 @@ function App() {
           <Route path='/Team' element={<Team/>} />
           <Route path='/Team/:year' element={<Team/>} />
           <Route path='/Gallery' element={<Gallery/>} />
-          <Route path='*' element={<Error/>} />
+          {/* <Route path='*' element={<Error/>} /> */}
         </Routes>
       </BrowserRouter>
 
