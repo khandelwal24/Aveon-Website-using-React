@@ -2,12 +2,12 @@ import React from 'react'
 import { Gallery_info } from './Gallery_Data'
 import Footer from './Footer'
 import LastLine from './LastLine'
-import Navbar from './Navbar'
+import Navbar2 from './Navbar2'
 
 function Gallery() {
   return (
     <div className='italic'>
-    <Navbar/>
+    <Navbar2/>
         <div className="max-w-[1260px] mx-auto sm:px-[24px] px-[18px] py-6">
                 <div className="xs:text-5xl text-3xl text-center text-white" style={{fontFamily:'Orbitron'}}>
                     Team Gallery

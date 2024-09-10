@@ -4,7 +4,7 @@ import Footer from './Footer'
 import LastLine from './LastLine'
 import { Link, Navigate, useLocation, useNavigate, useParams } from 'react-router-dom'
 
-import Navbar from './Navbar'
+import Navbar2 from './Navbar2'
 
 function Team() {
 
@@ -59,7 +59,7 @@ const genres = [
 
   return (
     <div className='italic'>
-    <Navbar/>
+    <Navbar2/>
     <div className="max-w-[1920px] mx-auto text-white">
     <h2 className="text-center sm:text-5xl mt-5 mb-5 text-4xl" style={{fontFamily:'Orbitron'}}>Our Team Members
 

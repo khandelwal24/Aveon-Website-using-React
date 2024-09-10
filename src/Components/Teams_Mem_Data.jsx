@@ -266,8 +266,8 @@ export const Teams_infoK22 =[
       Mail:'mailto:bishalmahali45@gmail.com'
    },
    {
-      img:'../Team Member Images/Bishal.jpg',
-      Name:'Bishal Mahali',
+      img:'../Team Member Images/XX.jpeg',
+      Name:'Niranjan Bhagat',
       Position:'Team Member',
       Insta:'https://www.instagram.com/niranjan_bhagat09',
       Linkedin:'https://www.linkedin.com/in/niranjan-bhagat-5263752b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
