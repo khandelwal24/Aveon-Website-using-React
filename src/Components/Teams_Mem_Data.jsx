@@ -249,4 +249,28 @@ export const Teams_infoK22 =[
       Linkedin:'https://www.linkedin.com/in/anuradha-mazumdar-292575259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
       Mail:'mailto:btech10848.22@bitmesra.ac.in'
    },
+   {
+      img:'../Team Member Images/Sweety.jpg',
+      Name:'Nidhi Munda',
+      Position:'Team Member',
+      Insta:'https://www.instagram.com/sweety__nidhi_munda_04?igsh=MTRndHRsYjhwcDY=',
+      Linkedin:'https://www.linkedin.com/in/sweety-nidhi-0a00b0264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      Mail:'mailto:sweetynidhi04@gmail.com'
+   },
+   {
+      img:'../Team Member Images/Bishal.jpg',
+      Name:'Bishal Mahali',
+      Position:'Team Member',
+      Insta:'https://www.instagram.com/bishal_mahali?igsh=MWZpeHEzb3lxdzJrdg==',
+      Linkedin:'https://www.linkedin.com/in/bishal-mahali-680a96229',
+      Mail:'mailto:bishalmahali45@gmail.com'
+   },
+   {
+      img:'../Team Member Images/Bishal.jpg',
+      Name:'Bishal Mahali',
+      Position:'Team Member',
+      Insta:'https://www.instagram.com/niranjan_bhagat09',
+      Linkedin:'https://www.linkedin.com/in/niranjan-bhagat-5263752b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      Mail:'mailto:niranjanbhagat5773@gmail.com'
+   },
 ]

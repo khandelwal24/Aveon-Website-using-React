@@ -16,11 +16,8 @@ import College from './College'
 function Home() {
   return (
     <div className='italic'>
-    <header>
       <Navbar/>
       <Hero/>
-    </header>
-
     <main>
       <College/>
       <About/>
