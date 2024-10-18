@@ -2,13 +2,14 @@ import React, { useEffect, useState } from 'react'
 import logo from '../Images/Logo.png'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation, useNavigate, useParams } from 'react-router-dom';
 import Team from './Team';
 import Gallery from './Gallery';
 import pdf from '../Components/pdf/Team Aveon Broucher 2024-25.pdf'
 
 
 function Navbar() {
+  
     const [Nav, setNav] = useState(false);
 
     useEffect(() => {

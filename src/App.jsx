@@ -32,6 +32,7 @@ function App() {
           <Route path='/Team' element={<Team/>} />
           <Route path='/Team/:year' element={<Team/>} />
           <Route path='/Gallery' element={<Gallery/>} />
+          <Route path='/Gallery/:eventss' element={<Gallery/>} />
           {/* <Route path='*' element={<Error/>} /> */}
         </Routes>
       </BrowserRouter>

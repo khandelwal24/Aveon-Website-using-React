@@ -251,7 +251,7 @@ export const Teams_infoK22 =[
    },
    {
       img:'../Team Member Images/Sweety.jpg',
-      Name:'Nidhi Munda',
+      Name:'Sweety Nidhi',
       Position:'Team Member',
       Insta:'https://www.instagram.com/sweety__nidhi_munda_04?igsh=MTRndHRsYjhwcDY=',
       Linkedin:'https://www.linkedin.com/in/sweety-nidhi-0a00b0264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
