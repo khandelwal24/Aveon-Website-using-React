@@ -7,7 +7,7 @@ export const Img_info = [
         img:'../Sponsors_Img/1.jpg',
     },
     {
-        img:'https://www.solarranchi.in/img/main_logo.png'
+        img:'../Sponsors_Img/14.png'
     },
     {
         img:'../Sponsors_Img/2.png'
@@ -40,7 +40,7 @@ export const Img_info = [
         img:'../Sponsors_Img/9.jpg'
     },
     {
-        img:'https://www.alcastindia.com/images/alcast-logo.png'
+        img:'../Sponsors_Img/13.jpg'
     },
     {
         img:'https://ushamartin.com/images/logo.png'

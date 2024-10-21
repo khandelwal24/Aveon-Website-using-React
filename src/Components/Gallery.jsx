@@ -35,15 +35,14 @@ function Gallery() {
 
   const genres = [
     { id: 1, genre: "Events" },
-    { id: 2, genre: "ChargeX" },
-    { id: 3, genre: "Pantheon" },
+    { id: 2, genre: "ChargeX-2K24" },
+    { id: 3, genre: "Pantheon-2K24" },
    ];
   
    let handleGenreSelect = (e) => {
     const eventss = e.target.value;
     {(eventss === '') ? navigate('/Gallery') : navigate(`/Gallery/${eventss}`)}
    };
-
 
 
    
@@ -66,8 +65,8 @@ function Gallery() {
    {/* <!-- Creating 1st card Using CSS --> */}
 {Path.pathname==='/Gallery' && <> {Events}</>}
 {Path.pathname=== '/Gallery/Events' && <> {Events} </>}
-{Path.pathname==='/Gallery/ChargeX' && <>{ChargeX}</>}
-{Path.pathname==='/Gallery/Pantheon' && <>{Pantheon}</>}
+{Path.pathname==='/Gallery/ChargeX-2K24' && <>{ChargeX}</>}
+{Path.pathname==='/Gallery/Pantheon-2K24' && <>{Pantheon}</>}
 
 </div>
 

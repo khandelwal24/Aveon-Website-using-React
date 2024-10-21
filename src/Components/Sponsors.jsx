@@ -21,9 +21,7 @@ function Sponsors() {
                             <img src={v.img} alt='sponsor Image' key={i} className='md:h-32 h-20 w-full bg-[#080f29]'/>
                         )
                     })}
-
-
-
+                    
                 </div>
               </marquee>
 

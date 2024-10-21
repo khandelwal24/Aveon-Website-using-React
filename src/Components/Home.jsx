@@ -11,7 +11,15 @@ import Contact from './Contact'
 import Footer from './Footer'
 import LastLine from './LastLine'
 import College from './College'
+import Carousel from './Carousel'
 
+
+const slides = [
+  "./Gallery/R1.jpg",
+  "./Gallery/R2.jpg",
+  "./Gallery/R3.jpg",
+  "./Gallery/R4.jpg",
+]
 
 function Home() {
   return (
@@ -26,6 +34,11 @@ function Home() {
       <Stats/>
       <Sponsors/>
       <Achievements/>
+      <Carousel>
+      {slides.map((s)=>(
+        <img src = {s} style={{border:'2px solid white', borderRadius:'3px'}}/>
+      ))}
+      </Carousel>
       <Contact/>
       </main>
     <footer><Footer/></footer> 
