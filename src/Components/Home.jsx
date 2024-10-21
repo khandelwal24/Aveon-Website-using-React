@@ -17,6 +17,8 @@ import Carousel from './Carousel'
 const slides = [
   "./Gallery/R1.jpg",
   "./Gallery/R2.jpg",
+  "./Gallery/R5.jpg",
+  "./Gallery/R6.jpg",
   "./Gallery/R3.jpg",
   "./Gallery/R4.jpg",
 ]
