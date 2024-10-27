@@ -16,27 +16,27 @@ function Gallery() {
 
   const Events = Gallery_info.map((v,i)=>{
     return(
-        <img src={v.img} alt='Team Image' className="w-96 h-full hover:scale-125 duration-300 overflow-hidden border-[2px] border-gray-300 rounded-lg"/>
+        <img src={v.img} alt='Team Image' className="w-96 h-full hover:scale-110 duration-300 overflow-hidden border-[2px] border-gray-300 rounded-lg"/>
     )
    })
 
   const ChargeX = ChargeX_info.map((v,i)=>{
     return(
-        <img src={v.img} alt='Team Image' className="w-96 h-full hover:scale-125 duration-300 overflow-hidden border-[2px] border-gray-300 rounded-lg"/>
+        <img src={v.img} alt='Team Image' className="w-96 h-full hover:scale-110 duration-300 overflow-hidden border-[2px] border-gray-300 rounded-lg"/>
     )
    })
 
   const Pantheon = Pantheon_info.map((v,i)=>{
     return(
-        <img src={v.img} alt='Team Image' className="w-96 h-full hover:scale-125 duration-300 overflow-hidden border-[2px] border-gray-300 rounded-lg"/>
+        <img src={v.img} alt='Team Image' className="w-96 h-full hover:scale-110 duration-300 overflow-hidden border-[2px] border-gray-300 rounded-lg"/>
     )
    })
 
 
   const genres = [
     { id: 1, genre: "Events" },
-    { id: 2, genre: "ChargeX-2K24" },
-    { id: 3, genre: "Pantheon-2K24" },
+    { id: 2, genre: "ChargeX-2024" },
+    { id: 3, genre: "Pantheon-2024" },
    ];
   
    let handleGenreSelect = (e) => {
@@ -61,12 +61,12 @@ function Gallery() {
     <hr className="w-1/2 font-bold text-black h-1/2 mb-7 mx-auto"/>
     </div>
 
-<div className="my-3 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 overflow-hidden grid-flow-row justify-items-center" >
+<div className="my-3 grid lg:grid-cols-4 px-5 md:grid-cols-2 grid-cols-1 gap-6 overflow-hidden grid-flow-row justify-items-center" >
    {/* <!-- Creating 1st card Using CSS --> */}
 {Path.pathname==='/Gallery' && <> {Events}</>}
 {Path.pathname=== '/Gallery/Events' && <> {Events} </>}
-{Path.pathname==='/Gallery/ChargeX-2K24' && <>{ChargeX}</>}
-{Path.pathname==='/Gallery/Pantheon-2K24' && <>{Pantheon}</>}
+{Path.pathname==='/Gallery/ChargeX-2024' && <>{ChargeX}</>}
+{Path.pathname==='/Gallery/Pantheon-2024' && <>{Pantheon}</>}
 
 </div>
 

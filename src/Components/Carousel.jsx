@@ -15,13 +15,12 @@ function Carousel({children:slides}) {
 
     <p className='text-white text-center sm:text-4xl text-3xl my-2 ' style={{fontFamily:'Orbitron'}}>Recent <span className='text-[#4150d8]'>Recruitment</span> drive</p>
     <hr className='w-3/4 mx-auto my-4'></hr>
-    <div className='justify-center items-center flex mx-auto p-5 overflow-hidden relative max-w-[1240px] backdrop-blur-md bg-opacity-25'>
-        <div className='flex gap-4 max-h-[600px] transition-transform ease-in-out duration-500' style={{transform:`translateX(-${idx*100}%)`}}>
+    <div className='justify-center items-center flex p-5 overflow-hidden relative max-w-[1240px] backdrop-blur-md bg-opacity-25'>
+        <div className='flex gap-4 max-h-[500px] transition-transform ease-in-out duration-500' style={{transform:`translateX(-${idx*100}%)`}}>
             {slides}
         </div>
 
-        <div className='inset-0 absolute justify-between items-center p-4 md:top-[40%] top-[35%]'>
-            
+        <div className='inset-0 absolute justify-between items-center md:top-[40%] top-[35%]'>
             
             <button onClick={next} className='bg-gray-200 opacity-90 hover:bg-white hover:opacity-100  text-black p-1 rounded-full absolute right-[1%] items-center'>
             <FaChevronRight className='md:size-12 size-9'/>

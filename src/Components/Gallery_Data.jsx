@@ -93,42 +93,79 @@ export const Gallery_info = [
 
 
 export const ChargeX_info = [
+ 
     {
-        img:'../Gallery/31.jpg'
+        img:'../Gallery/119.jpg'
     },
     {
-        img:'../Gallery/32.jpg'
+        img:'../Gallery/123.jpg'
     },
     {
-        img:'../Gallery/33.jpg'
+        img:'../Gallery/113.jpg'
     },
     {
-        img:'../Gallery/34.jpg'
+        img:'../Gallery/114.jpg'
     },
     {
-        img:'../Gallery/35.jpg'
+        img:'../Gallery/115.jpg'
     },
     {
-        img:'../Gallery/36.jpg'
+        img:'../Gallery/116.jpg'
     },
     {
-        img:'../Gallery/37.jpg'
+        img:'../Gallery/120.jpg'
     },
     {
-        img:'../Gallery/38.jpg'
+        img:'../Gallery/121.jpg'
     },
     {
-        img:'../Gallery/39.jpg'
+        img:'../Gallery/122.jpg'
+    },
+    
+    {
+        img:'../Gallery/124.jpg'
     },
     {
-        img:'../Gallery/40.jpg'
+        img:'../Gallery/125.jpg'
     },
     {
-        img:'../Gallery/41.jpg'
+        img:'../Gallery/111.jpg'
+    },
+
+    {
+        img:'../Gallery/134.jpg'
     },
     {
-        img:'../Gallery/42.jpg'
+        img:'../Gallery/135.jpg'
     },
+    {
+        img:'../Gallery/126.jpg'
+    },
+    {
+        img:'../Gallery/127.jpg'
+    },
+    {
+        img:'../Gallery/128.jpg'
+    },
+    {
+        img:'../Gallery/129.jpg'
+    },
+    {
+        img:'../Gallery/130.jpg'
+    },
+    {
+        img:'../Gallery/131.jpg'
+    },
+    {
+        img:'../Gallery/132.jpg'
+    },
+    {
+        img:'../Gallery/133.jpg'
+    },
+    {
+        img:'../Gallery/136.jpg'
+    },
+    
     {
         img:'../Gallery/95.jpg'
     },
@@ -178,83 +215,34 @@ export const ChargeX_info = [
         img:'../Gallery/110.jpg'
     },
     {
-        img:'../Gallery/117.jpg'
+        img:'../Gallery/33.jpg'
     },
     {
-        img:'../Gallery/112.jpg'
+        img:'../Gallery/34.jpg'
     },
     {
-        img:'../Gallery/113.jpg'
+        img:'../Gallery/35.jpg'
     },
     {
-        img:'../Gallery/114.jpg'
+        img:'../Gallery/36.jpg'
     },
     {
-        img:'../Gallery/115.jpg'
+        img:'../Gallery/37.jpg'
     },
     {
-        img:'../Gallery/116.jpg'
+        img:'../Gallery/38.jpg'
     },
     {
-        img:'../Gallery/111.jpg'
-    },
-
-    {
-        img:'../Gallery/119.jpg'
+        img:'../Gallery/39.jpg'
     },
     {
-        img:'../Gallery/120.jpg'
+        img:'../Gallery/40.jpg'
     },
     {
-        img:'../Gallery/121.jpg'
-    },
-    {
-        img:'../Gallery/122.jpg'
-    },
-    {
-        img:'../Gallery/123.jpg'
-    },
-    {
-        img:'../Gallery/124.jpg'
-    },
-    {
-        img:'../Gallery/125.jpg'
-    },
-    {
-        img:'../Gallery/134.jpg'
-    },
-    {
-        img:'../Gallery/135.jpg'
-    },
-    {
-        img:'../Gallery/126.jpg'
-    },
-    {
-        img:'../Gallery/127.jpg'
-    },
-    {
-        img:'../Gallery/128.jpg'
-    },
-    {
-        img:'../Gallery/129.jpg'
-    },
-    {
-        img:'../Gallery/130.jpg'
-    },
-    {
-        img:'../Gallery/131.jpg'
-    },
-    {
-        img:'../Gallery/132.jpg'
-    },
-    {
-        img:'../Gallery/133.jpg'
-    },
-    {
-        img:'../Gallery/136.jpg'
-    },
-    
+        img:'../Gallery/41.jpg'
+    } 
 ]
+
 
 
 export const Pantheon_info = [ 
