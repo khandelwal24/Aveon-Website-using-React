@@ -37,8 +37,8 @@ function Home() {
       <Sponsors/>
       <Achievements/>
       <Carousel>
-      {slides.map((s)=>(
-        <img src = {s} style={{border:'2px solid white', borderRadius:'3px'}}/>
+      {slides.map((s,i)=>(
+        <img src = {s} key={i} style={{border:'2px solid white'}}/>
       ))}
       </Carousel>
       <Contact/>

@@ -16,19 +16,19 @@ function Gallery() {
 
   const Events = Gallery_info.map((v,i)=>{
     return(
-        <img src={v.img} alt='Team Image' className="w-96 h-full hover:scale-110 duration-300 overflow-hidden border-[2px] border-gray-300 rounded-lg"/>
+        <img src={v.img} key={i} alt='Team Image' className="w-96 h-full hover:scale-110 duration-300 overflow-hidden border-[2px] border-gray-300 rounded-lg"/>
     )
    })
 
   const ChargeX = ChargeX_info.map((v,i)=>{
     return(
-        <img src={v.img} alt='Team Image' className="w-96 h-full hover:scale-110 duration-300 overflow-hidden border-[2px] border-gray-300 rounded-lg"/>
+        <img src={v.img} key={i} alt='Team Image' className="w-96 h-full hover:scale-110 duration-300 overflow-hidden border-[2px] border-gray-300 rounded-lg"/>
     )
    })
 
   const Pantheon = Pantheon_info.map((v,i)=>{
     return(
-        <img src={v.img} alt='Team Image' className="w-96 h-full hover:scale-110 duration-300 overflow-hidden border-[2px] border-gray-300 rounded-lg"/>
+        <img src={v.img} key={i} alt='Team Image' className="w-96 h-full hover:scale-110 duration-300 overflow-hidden border-[2px] border-gray-300 rounded-lg"/>
     )
    })
 

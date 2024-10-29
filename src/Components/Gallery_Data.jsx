@@ -131,6 +131,9 @@ export const ChargeX_info = [
     {
         img:'../Gallery/111.jpg'
     },
+    {
+        img:'../Gallery/117.jpg'
+    },
 
     {
         img:'../Gallery/134.jpg'
