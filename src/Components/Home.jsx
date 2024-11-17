@@ -23,12 +23,13 @@ const slides = [
   "./Gallery/R4.jpg",
 ]
 
+
 function Home() {
   return (
     <div className='italic'>
       <Navbar/>
       <Hero/>
-    <main>
+      <main>
       <College/>
       <About/>
       <Vehicle/>
@@ -38,7 +39,7 @@ function Home() {
       <Achievements/>
       <Carousel>
       {slides.map((s,i)=>(
-        <img src = {s} key={i} style={{border:'2px solid white'}}/>
+        <img src = {s} key={i} style={{border:'2px solid white', borderRadius:'5px'}}/>
       ))}
       </Carousel>
       <Contact/>

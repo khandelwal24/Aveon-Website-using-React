@@ -34,25 +34,26 @@ function Contact() {
     const [result, setResult] = React.useState("");
 
     const onSubmitt = async (event) => {
-    toast.success('Submitted Successfully');
-    event.preventDefault();
-    setformData({
-      uname:'',
-      uemail:'',
-      umessage:'',
-    })
-    setResult("Sending....");
-    const formData = new FormData(event.target);
-
+      event.preventDefault();
+      setformData({
+        uname:'',
+        uemail:'',
+        umessage:'',
+      })
+      setResult("Sending....");
+      const formData = new FormData(event.target);
+      toast.success('Submitted Successfully');
+    
     formData.append("access_key", "04f46d1a-f683-487a-b1ca-14468d9f455f");
-
+    
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       body: formData
     });
-
+    
     const data = await response.json();
 
+    
     if (data.success) {
       setResult("Form Submitted Successfully");
       event.target.reset();

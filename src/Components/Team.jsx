@@ -3,7 +3,6 @@ import { Teams_info,Teams_infoK22 } from './Teams_Mem_Data'
 import Footer from './Footer'
 import LastLine from './LastLine'
 import { Link, Navigate, useLocation, useNavigate, useParams } from 'react-router-dom'
-
 import Navbar2 from './Navbar2'
 
 function Team() {
@@ -11,7 +10,6 @@ function Team() {
   let Path = useLocation();
   let navigate = useNavigate();
   let params = useParams();
-
   
 
 const K21 = Teams_info.map((v,i)=>{

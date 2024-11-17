@@ -4,6 +4,10 @@ export const Img_info = [
     },
     
     {
+        img:'../Sponsors_Img/champion.png'
+    },
+    
+    {
         img:'../Sponsors_Img/1.jpg',
     },
     {
