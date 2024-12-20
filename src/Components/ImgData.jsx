@@ -2,6 +2,9 @@ export const Img_info = [
     {
         img:'../Sponsors_Img/cmpi.png'
     },
+    {
+        img:'../Sponsors_Img/tarco.png'
+    },
     
     {
         img:'../Sponsors_Img/champion.png'
@@ -9,6 +12,9 @@ export const Img_info = [
     
     {
         img:'../Sponsors_Img/1.jpg',
+    },
+    {
+        img:'../Sponsors_Img/usha.png'
     },
     {
         img:'../Sponsors_Img/14.png'
@@ -46,7 +52,9 @@ export const Img_info = [
     {
         img:'../Sponsors_Img/13.jpg'
     },
-    {
-        img:'https://ushamartin.com/images/logo.png'
-    }    
+    // {
+    //     img:'https://ushamartin.com/images/logo.png'
+    // },
+    
+   
 ]
