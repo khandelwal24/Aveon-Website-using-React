@@ -201,22 +201,22 @@ export const Teams_infoK22 =[
       Linkedin:'https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFGh9Rc0hfx6gAAAZA6J-cgqR4DjPgZjB3PO5bf-M92SNpJNlAH2bydKsVtvwITuq05wb36V_GFj7pGRQrJQr7N940lbTW3ok9iqnYvBnhySWOt1Sj3lzyI4xRf6aPeGmEB7Xo=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fkunal-kumar-saw-69349827a%3FminiProfileUrn%3Durn%253Ali%253Afs_miniProfile%253AACoAAEQPIs8Be4CoE-yu4MfoImG6-RchU8DRhYk%26lipi%3Durn%253Ali%253Apage%253Ad_flagship3_search_srp_all%253BxiqOeFjESauiGkteUwm2YA%253D%253D',
       Mail:'mailto:kunalkumarsawkohli@gmail.com'
    },
-   {
-      img:'../Team Member Images/Anjan.jpg',
-      Name:'Anjan',
-      Position:'Transmisson lead',
-      Insta:'https://www.instagram.com/anjannnnn___/',
-      Linkedin:'https://www.linkedin.com/in/anjan-kumar-rajak-babb7b268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-      Mail:'mailto:anjanrajak2003@gmail.com'
-   },
-   {
-      img:'../Team Member Images/XX.jpeg',
-      Name:'Shrinath',
-      Position:'SAE Executive ',
-      Insta:'',
-      Linkedin:'',
-      Mail:'mailto:'
-   },
+   // {
+   //    img:'../Team Member Images/Anjan.jpg',
+   //    Name:'Anjan',
+   //    Position:'Transmisson lead',
+   //    Insta:'https://www.instagram.com/anjannnnn___/',
+   //    Linkedin:'https://www.linkedin.com/in/anjan-kumar-rajak-babb7b268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+   //    Mail:'mailto:anjanrajak2003@gmail.com'
+   // },
+   // {
+   //    img:'../Team Member Images/XX.jpeg',
+   //    Name:'Shrinath',
+   //    Position:'SAE Executive ',
+   //    Insta:'',
+   //    Linkedin:'',
+   //    Mail:'mailto:'
+   // },
    {
       img:'../Team Member Images/Yash Anand.jpg',
       Name:'Yash Anand',
@@ -225,14 +225,14 @@ export const Teams_infoK22 =[
       Linkedin:'',
       Mail:'mailto:yasha4483@gmail.com'
    },
-   {
-      img:'../Team Member Images/XX.jpeg',
-      Name:'Sourav',
-      Position:'Breaks lead',
-      Insta:'',
-      Linkedin:'',
-      Mail:'mailto:',
-   },
+   // {
+   //    img:'../Team Member Images/XX.jpeg',
+   //    Name:'Sourav',
+   //    Position:'Breaks lead',
+   //    Insta:'',
+   //    Linkedin:'',
+   //    Mail:'mailto:',
+   // },
    {
       img:'../Team Member Images/Astha Kaushik.jpeg',
       Name:'Astha Kaushik',
