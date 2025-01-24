@@ -209,6 +209,7 @@ export const Teams_infoK22 =[
    //    Linkedin:'https://www.linkedin.com/in/anjan-kumar-rajak-babb7b268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
    //    Mail:'mailto:anjanrajak2003@gmail.com'
    // },
+   
    // {
    //    img:'../Team Member Images/XX.jpeg',
    //    Name:'Shrinath',
