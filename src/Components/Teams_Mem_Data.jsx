@@ -210,6 +210,8 @@ export const Teams_infoK22 =[
    //    Mail:'mailto:anjanrajak2003@gmail.com'
    // },
    
+
+   
    // {
    //    img:'../Team Member Images/XX.jpeg',
    //    Name:'Shrinath',
