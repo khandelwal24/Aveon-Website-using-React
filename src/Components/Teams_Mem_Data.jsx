@@ -129,14 +129,14 @@ export const Teams_infoK22 =[
          Linkedin:'',
          Mail:'mailto:himag1412@gmail.com'
    },
-   {
-         img:'../Team Member Images/Prabhutva Verma.jpg',
-         Name:'Prabhutva Verma',
-         Position:'Joint Secretary',
-         Insta:'https://www.instagram.com/prabhutvaverma/',
-         Linkedin:'http://www.linkedin.com/in/prabhutvaverma',
-         Mail:'mailto:prabhutvaverma@gmail.com'
-   },
+   // {
+   //       img:'../Team Member Images/Prabhutva Verma.jpg',
+   //       Name:'Prabhutva Verma',
+   //       Position:'Joint Secretary',
+   //       Insta:'https://www.instagram.com/prabhutvaverma/',
+   //       Linkedin:'http://www.linkedin.com/in/prabhutvaverma',
+   //       Mail:'mailto:prabhutvaverma@gmail.com'
+   // },
    {
          img:'../Team Member Images/Shashwat Verma.jpg',
          Name:'Shashwat Verma',
@@ -154,6 +154,14 @@ export const Teams_infoK22 =[
          Mail:'mailto:guptasushil5810@gmail.com',
    },
    {
+      img:'../Team Member Images/me day 3.0.jpg',
+      Name:'Harsh Khandelwal',
+      Position:'Joint Treasurer',
+      Insta:'https://www.instagram.com/khandelwal0024/',
+      Linkedin:'https://www.linkedin.com/in/harshwardhan-khandelwal-86104625a/',
+      Mail:'mailto:khandelwalharsh333@gmail.com'
+   },
+   {
       img:'../Team Member Images/Saurabh.JPG',
       Name:'Saurabh Pandey',
       Position:'Electrical lead',
@@ -161,14 +169,7 @@ export const Teams_infoK22 =[
       Linkedin:'https://www.linkedin.com/in/saurabh-pandey-552712256/',
       Mail:'mailto:saurabhpandey59254@gmail.com',
    },
-   {
-         img:'../Team Member Images/me day 3.0.jpg',
-         Name:'Harsh Khandelwal',
-         Position:'Joint Treasurer',
-         Insta:'https://www.instagram.com/khandelwal0024/',
-         Linkedin:'https://www.linkedin.com/in/harshwardhan-khandelwal-86104625a/',
-         Mail:'mailto:khandelwalharsh333@gmail.com'
-   },
+   
    {
       img:'../Team Member Images/Priyanshu.jpg',
       Name:'Priyanshu Agrahari',

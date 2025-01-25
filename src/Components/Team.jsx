@@ -23,7 +23,7 @@ const K21 = Teams_info.map((v,i)=>{
       <a href={v.Linkedin}><i className="fa-brands fa-linkedin hover:scale-110 duration-300 hover:text-blue-500 active:scale-150"></i></a>
       <a href={v.Mail}><i className="fa-solid fa-envelope hover:scale-110 duration-300 hover:text-yellow-400 active:scale-150"></i></a>
     </div>
-</div>
+    </div>
     )
  })
  

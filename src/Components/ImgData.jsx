@@ -1,6 +1,6 @@
 export const Img_info = [
     {
-        img:'../Sponsors_Img/cmpi.png'
+        img:'../Sponsors_Img/cmpdi.png'
     },
     {
         img:'../Sponsors_Img/tarco.png'
