@@ -64,7 +64,7 @@ function Gallery() {
 <div className="my-3 grid lg:grid-cols-4 px-5 md:grid-cols-2 grid-cols-1 gap-6 overflow-hidden grid-flow-row justify-items-center" >
    {/* <!-- Creating 1st card Using CSS --> */}
 {Path.pathname==='/Gallery' && <> {Events} </>}
-{Path.pathname=== '/Gallery/Events' && <> {Events} </>}
+{Path.pathname==='/Gallery/Events' && <> {Events} </>}
 {Path.pathname==='/Gallery/ChargeX-2024' && <>{ChargeX}</>}
 {Path.pathname==='/Gallery/Pantheon-2024' && <>{Pantheon}</>}
 

@@ -15,7 +15,7 @@ function Sponsors() {
             </p>
             <hr className="text-white mx-auto w-1/2 my-8"/>
             <marquee direction="left px-8" scrollamount="10">
-                <div className="flex space-x-4 my-6">                   
+                <div className="flex space-x-4 my-6">                  
                     {Img_info.map((v,i)=>{
                         return(
                             <img src={v.img} alt='sponsor Image' key={i} className='md:h-32 h-20 w-full bg-[#080f29]'/>
