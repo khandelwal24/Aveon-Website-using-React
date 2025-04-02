@@ -54,10 +54,9 @@ function Navbar() {
           <NavLink to={'/Team'} className=" border-b-[1px] rounded-xl border-white block py-3 px-2 mb-3 hover:bg-[#213068] hover:transition-all ease-in-out duration-75">Team</NavLink>
           <a href="#Sponsors" className=" border-b-[1px] rounded-xl border-white block py-3 px-2 mb-3 hover:bg-[#213068] hover:transition-all ease-in-out duration-75">Sponsors</a>
           <NavLink to={'/Gallery'} className=" border-b-[1px] rounded-xl border-white block py-3 px-2 mb-3 hover:bg-[#213068] hover:transition-all ease-in-out duration-75">Gallery</NavLink>
-          <a href={pdf} download="Team Aveon Broucher.pdf" className={`p-2.5 bg-gray-600 text-white rounded-full mt-7 border-2 border-white ${(Nav) ? 'block' : 'hidden'} hover:bg-gray-500`}>Download Broucher <i class="fa-solid fa-download"></i> </a>
+          <a href={pdf} download="Team Aveon Broucher.pdf" className={`p-2.5 bg-gray-600 text-white rounded-full mt-7 border-2 border-white ${(Nav) ? 'block' : 'hidden'} hover:bg-gray-500`}>Download Broucher <i className="fa-solid fa-download"></i> </a>
       </div>
     </nav>
-    
   )
 }
 

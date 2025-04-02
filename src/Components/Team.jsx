@@ -61,7 +61,7 @@ const genres = [
     <div className="max-w-[1920px] mx-auto text-white">
     <h2 className="text-center sm:text-5xl mt-5 mb-5 text-4xl" style={{fontFamily:'Orbitron'}}>Our Team Members
 
-    <select onChange={handleGenreSelect} className='bg-black text-center px-1 bg-transparent ml-2 rounded-lg text-red-500'> 
+    <select onChange={handleGenreSelect} className='bg-black text-2xl text-center px-1 bg-transparent ml-2 rounded-lg text-red-500'> 
     {genres.map(el => <option key={el.id}>{el.genre}</option>)}
      
     </select>

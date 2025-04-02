@@ -77,17 +77,17 @@ function Contact() {
               <form onSubmit={onSubmitt} className="space-y-8 flex-col flex mx-auto justify-center items-center w-full">
                      
                      <p className="flex flex-col xs:flex-row items-center justify-center gap-4 w-full px-3">
-                      <label for="name" className="text-xl block ">Name : </label>
+                      <label htmlFor="name" className="text-xl block ">Name : </label>
                       <input type="text" name='uname' value={formData.uname} onChange={getVal} id="name" placeholder="Enter your Name" className="p-2 bg-transparent border-b-[1px] rounded-sm" required/>
                      </p> 
                      
                      <p className="flex flex-col xs:flex-row items-center justify-center gap-4 w-full px-3">
-                      <label for="email" className="text-xl block">E-mail : </label>
+                      <label htmlFor="email" className="text-xl block">E-mail : </label>
                       <input type="email" name='uemail' value={formData.uemail} onChange={getVal} id="email" placeholder="E-mail" className="p-2 bg-transparent border-b-[1px] rounded-sm" required/>
                      </p>
                       
                       <p className="flex flex-col xs:flex-row items-center justify-center gap-4 w-full px-3">
-                        <label for="message" className="text-xl block">Message here : </label>
+                        <label htmlFor="message" className="text-xl block">Message here : </label>
                         <textarea id="message" name='umessage' value={formData.umessage} onChange={getVal} cols="20" rows="3" placeholder="Enter your Message here" className="p-2 bg-transparent border-b-[1px] rounded-sm"></textarea>
                       </p>
 

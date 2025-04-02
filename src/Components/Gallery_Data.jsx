@@ -304,3 +304,57 @@ export const Pantheon_info = [
         img :'../Gallery/89.jpg '
     },
 ]
+
+export const E_baja_2025 = [
+    {
+        img:'../Gallery/EB1.jpg'
+    },
+    {
+        img:'../Gallery/EB2.jpg'
+    },
+    {
+        img:'../Gallery/EB3.jpg'
+    },
+    {
+        img:'../Gallery/EB4.jpg'
+    },
+    {
+        img:'../Gallery/EB5.jpg'
+    },
+]
+
+export const Bitosav2025 = [
+    {
+        img:'../Gallery/BT1.jpg'
+    },
+    {
+        img:'../Gallery/BT2.jpg'
+    },
+    {
+        img:'../Gallery/BT3.jpg'
+    },
+    {
+        img:'../Gallery/BT4.jpg'
+    },
+    {
+        img:'../Gallery/BT5.jpg'
+    },
+    {
+        img:'../Gallery/BT6.jpg'
+    },
+    {
+        img:'../Gallery/BT7.jpg'
+    },
+    {
+        img:'../Gallery/R8.jpg'
+    },
+    {
+        img:'../Gallery/R9.jpg'
+    },
+    {
+        img:'../Gallery/R10.jpg'
+    },
+    {
+        img:'../Gallery/R11.jpg'
+    },
+]
