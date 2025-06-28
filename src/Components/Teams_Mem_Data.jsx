@@ -114,36 +114,44 @@ export const Teams_info = [
 export const Teams_infoK22 =[
    
    {
+         img:'../Team Member Images/Himanshu.jpg',
+         Name:'Himanshu Kumar',
+         Position:'President',
+         Insta:'https://www.instagram.com/himanshu_agr14',
+         Linkedin:'',
+         Mail:'mailto:himag1412@gmail.com'
+   },
+   {
          img:'../Team Member Images/Chandan Kumar.jpeg',
          Name:'Chandan Kumar',
-         Position:'General Secretary',
+         Position:'Vice President',
          Insta:'https://www.instagram.com/chandan95230/',
          Linkedin:'https://www.linkedin.com/in/chandan-kumar-29495a261',
          Mail:'mailto:chandan95230@gmail.com'
    },
    {
-         img:'../Team Member Images/Himanshu.jpg',
-         Name:'Himanshu Kumar',
-         Position:'Joint Secretary',
-         Insta:'https://www.instagram.com/himanshu_agr14',
-         Linkedin:'',
-         Mail:'mailto:himag1412@gmail.com'
+      img:'../Team Member Images/Kunal.jpg',
+      Name:'Kunal kumar Saw',
+      Position:'Vice President',
+      Insta:'https://www.instagram.com/__princerajveerroy__/',
+      Linkedin:'https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFGh9Rc0hfx6gAAAZA6J-cgqR4DjPgZjB3PO5bf-M92SNpJNlAH2bydKsVtvwITuq05wb36V_GFj7pGRQrJQr7N940lbTW3ok9iqnYvBnhySWOt1Sj3lzyI4xRf6aPeGmEB7Xo=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fkunal-kumar-saw-69349827a%3FminiProfileUrn%3Durn%253Ali%253Afs_miniProfile%253AACoAAEQPIs8Be4CoE-yu4MfoImG6-RchU8DRhYk%26lipi%3Durn%253Ali%253Apage%253Ad_flagship3_search_srp_all%253BxiqOeFjESauiGkteUwm2YA%253D%253D',
+      Mail:'mailto:kunalkumarsawkohli@gmail.com'
    },
-   // {
-   //       img:'../Team Member Images/Prabhutva Verma.jpg',
-   //       Name:'Prabhutva Verma',
-   //       Position:'Joint Secretary',
-   //       Insta:'https://www.instagram.com/prabhutvaverma/',
-   //       Linkedin:'http://www.linkedin.com/in/prabhutvaverma',
-   //       Mail:'mailto:prabhutvaverma@gmail.com'
-   // },
    {
          img:'../Team Member Images/Shashwat Verma.jpg',
          Name:'Shashwat Verma',
-         Position:'Treasurer',
+         Position:'Joint President',
          Insta:'https://www.instagram.com/vermathinks',
          Linkedin:'https://www.linkedin.com/in/shashv/',
          Mail:'mailto:me@shashwatverma.dev'
+   },
+   {
+      img:'../Team Member Images/Saurabh.JPG',
+      Name:'Saurabh Pandey',
+      Position:'Vice Captain',
+      Insta:'https://www.instagram.com/saurabhpandey21_08',
+      Linkedin:'https://www.linkedin.com/in/saurabh-pandey-552712256/',
+      Mail:'mailto:saurabhpandey59254@gmail.com',
    },
    {
          img:'../Team Member Images/Sushil.jpg',
@@ -161,15 +169,6 @@ export const Teams_infoK22 =[
       Linkedin:'https://www.linkedin.com/in/harshwardhan-khandelwal-86104625a/',
       Mail:'mailto:khandelwalharsh333@gmail.com'
    },
-   {
-      img:'../Team Member Images/Saurabh.JPG',
-      Name:'Saurabh Pandey',
-      Position:'Electrical lead',
-      Insta:'https://www.instagram.com/saurabhpandey21_08',
-      Linkedin:'https://www.linkedin.com/in/saurabh-pandey-552712256/',
-      Mail:'mailto:saurabhpandey59254@gmail.com',
-   },
-   
    {
       img:'../Team Member Images/Priyanshu.jpg',
       Name:'Priyanshu Agrahari',
@@ -195,33 +194,6 @@ export const Teams_infoK22 =[
       Mail:'mailto:aryansinghas2004@gmail.com'
    },
    {
-      img:'../Team Member Images/Kunal.jpg',
-      Name:'Kunal kumar Saw',
-      Position:'Roll Cage lead',
-      Insta:'https://www.instagram.com/__princerajveerroy__/',
-      Linkedin:'https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFGh9Rc0hfx6gAAAZA6J-cgqR4DjPgZjB3PO5bf-M92SNpJNlAH2bydKsVtvwITuq05wb36V_GFj7pGRQrJQr7N940lbTW3ok9iqnYvBnhySWOt1Sj3lzyI4xRf6aPeGmEB7Xo=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fkunal-kumar-saw-69349827a%3FminiProfileUrn%3Durn%253Ali%253Afs_miniProfile%253AACoAAEQPIs8Be4CoE-yu4MfoImG6-RchU8DRhYk%26lipi%3Durn%253Ali%253Apage%253Ad_flagship3_search_srp_all%253BxiqOeFjESauiGkteUwm2YA%253D%253D',
-      Mail:'mailto:kunalkumarsawkohli@gmail.com'
-   },
-   // {
-   //    img:'../Team Member Images/Anjan.jpg',
-   //    Name:'Anjan',
-   //    Position:'Transmisson lead',
-   //    Insta:'https://www.instagram.com/anjannnnn___/',
-   //    Linkedin:'https://www.linkedin.com/in/anjan-kumar-rajak-babb7b268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-   //    Mail:'mailto:anjanrajak2003@gmail.com'
-   // },
-   
-
-   
-   // {
-   //    img:'../Team Member Images/XX.jpeg',
-   //    Name:'Shrinath',
-   //    Position:'SAE Executive ',
-   //    Insta:'',
-   //    Linkedin:'',
-   //    Mail:'mailto:'
-   // },
-   {
       img:'../Team Member Images/Yash Anand.jpg',
       Name:'Yash Anand',
       Position:'SAE Executive ',
@@ -229,14 +201,6 @@ export const Teams_infoK22 =[
       Linkedin:'',
       Mail:'mailto:yasha4483@gmail.com'
    },
-   // {
-   //    img:'../Team Member Images/XX.jpeg',
-   //    Name:'Sourav',
-   //    Position:'Breaks lead',
-   //    Insta:'',
-   //    Linkedin:'',
-   //    Mail:'mailto:',
-   // },
    {
       img:'../Team Member Images/Astha Kaushik.jpeg',
       Name:'Astha Kaushik',
@@ -277,4 +241,14 @@ export const Teams_infoK22 =[
       Linkedin:'https://www.linkedin.com/in/niranjan-bhagat-5263752b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
       Mail:'mailto:niranjanbhagat5773@gmail.com'
    },
+]
+export const Teams_infoK23 =[
+   {
+      img:'../Team Member Images/Vijay.jpg',
+      Name:'Vijay Prakash',
+      Position:'General Secretary',
+      Insta:'',
+      Linkedin:'',
+      Mail:'mailto:'
+      },
 ]
