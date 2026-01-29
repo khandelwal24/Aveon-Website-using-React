@@ -1,5 +1,8 @@
 export const Img_info = [
     {
+        img:'../Sponsors_Img/lic.jpeg'
+    },
+    {
         img:'../Sponsors_Img/cmpdi.png'
     },
     {
