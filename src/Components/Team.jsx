@@ -45,7 +45,7 @@ const K22 = Teams_infoK22.map((v,i)=>{
 const K23 = Teams_infoK23.map((v,i)=>{
   return(
     <div data-aos="flip-left" data-aos-duration="5000" key={i} className="backdrop-blur-lg bg-opacity-30 w-full flex flex-col px-4 py-3 border-[1px] border-orange-200 text-white gap-4 mx-auto items-center rounded-lg pb-5 bg-gray-900 justify-center" style={{boxShadow:'3px 3px 5px rgb(65, 80, 216),-3px -3px 5px rgb(90,89,208)'}}>
-    <img  src={v.img} key={i} alt='K22 Image' loading='lazy' className="rounded-full h-24 w-24 hover:scale-110 duration-300 active:scale-150 border-[2px] border-blue-500" />
+    <img  src={v.img} key={i} alt='K23 Image' loading='lazy' className="rounded-full h-24 w-24 hover:scale-110 duration-300 active:scale-150 border-[2px] border-blue-500" />
     <h1 className="text-xl font-semibold text-center">{v.Name}</h1>
     <p className="text-xl font-extrabold text-center text-purple-500" style={{fontFamily:"sans-serif"}}>{v.Position}</p>
     <div className="w-full flex gap-4 justify-center md:flex-row text-3xl">
@@ -59,9 +59,9 @@ const K23 = Teams_infoK23.map((v,i)=>{
 
 
 const genres = [
-  { id: 1, genre: "K21" },
+  { id: 1, genre: "K23" },
   { id: 2, genre: "K22" },
-  { id: 3, genre: "K23" },
+  { id: 3, genre: "K21" },
  ];
 
  let handleGenreSelect = (e) => {
@@ -88,10 +88,10 @@ const genres = [
 <div className="max-w-[1920px] mx-auto grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 gap-7 sm:px-5 px-10 py-4" >
    {/* <!-- Creating 1st card Using CSS --> */}
 
-{Path.pathname==='/Team' && <>{K21}</>}
-{Path.pathname==='/Team/K21' && <>{K21}</>}
-{Path.pathname==='/Team/K22' && <>{K22}</>}
+{Path.pathname==='/Team' && <>{K23}</>}
 {Path.pathname==='/Team/K23' && <>{K23}</>}
+{Path.pathname==='/Team/K22' && <>{K22}</>}
+{Path.pathname==='/Team/K21' && <>{K21}</>}
 
 </div>
 <Footer/>
