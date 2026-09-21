@@ -16,7 +16,7 @@ function Carousel({children:slides}) {
 <p className='text-white text-center sm:text-4xl text-3xl my-2 ' style={{fontFamily:'Orbitron'}}>Recent <span className='text-[#4150d8]'>Recruitment</span> drive</p>
     <hr className='w-3/4 mx-auto my-4'></hr>
 
-    <div className='my-10 items-center flex px-5 overflow-x-hidden mx-5 relative backdrop-blur-md bg-opacity-25'>
+    <div className='my-10 items-center flex px-5 overflow-x-hidden mx-5 relative backdrop-blur-md bg-opacity-25 slides'>
         
         <div className='flex w-full gap-4 max-h-[600px] transition-transform ease-in-out duration-500' style={{transform:`translateX(-${idx*100}%)`}}>
             {slides}
